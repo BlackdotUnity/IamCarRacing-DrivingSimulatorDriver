@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 49c0f10d4c8c88b419d87594d96c7e7a, type: 3}
+  m_Name: StoreTheme
+  m_EditorClassIdentifier: Assembly-CSharp::StoreTheme
+  font: {fileID: 12800000, guid: a51f574bb62db9145a0bb14915c10ff4, type: 3}
+  panel: {fileID: 21300000, guid: fa62bfdf3de942046854f56de2fd5c1b, type: 3}
+  header: {fileID: 21300000, guid: 9d44dd6c0187e34449844c2839426cdd, type: 3}
+  closeButton: {fileID: 0}
+  packButton: {fileID: 21300000, guid: 163904138444b8044a843a8ed9fb967c, type: 3}
+  coinIcon: {fileID: 464206127066122051, guid: 298d3c7ad304e54459909bf0dbbea208, type: 3}
+  keyIcon: {fileID: -3758923921526908785, guid: 89fde83bba7dd9946b28e2841bcab7eb, type: 3}
+  headerTextColor: {r: 0.06, g: 0.06, b: 0.06, a: 1}
+  buttonTextColor: {r: 0.06, g: 0.06, b: 0.06, a: 1}

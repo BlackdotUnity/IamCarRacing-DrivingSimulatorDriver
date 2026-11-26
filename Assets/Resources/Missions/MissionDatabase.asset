@@ -1,0 +1,4781 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 58d1cf9c29febdf4ea209938fbfa15a7, type: 3}
+  m_Name: MissionDatabase
+  m_EditorClassIdentifier: Assembly-CSharp::MissionDatabase
+  missions:
+  - chapter: 0
+    level: 0
+    title: Ignite
+    story: Car-01 is activating for the first time. System boot and basic controls
+      test.
+    objective: Press accelerator and brake 3 times each without hitting walls to
+      finish calibration.
+    completeText: Mission complete!
+    altCompleteText: 
+    handBuilt: 1
+    area: 0
+    env: 0
+    maxCrashes: 1
+    maxStrikes: 3
+    speedLimitKmh: 0
+    noReverse: 0
+    timeFactor: 1
+    fixedTime: 0
+    reward: 2500
+    startFuel: 0
+    fuelDrainPerSecond: 0
+    hazard: 0
+    hazardCount: 0
+    props: 0
+    propCount: 0
+    steps: []
+  - chapter: 0
+    level: 1
+    title: First Move
+    story: The system started a Move Test. Get the car out of the garage.
+    objective: Drive out of the garage through the alley and reach the exit marker
+      without crashing.
+    completeText: Mission complete!
+    altCompleteText: 
+    handBuilt: 1
+    area: 0
+    env: 0
+    maxCrashes: 1
+    maxStrikes: 3
+    speedLimitKmh: 0
+    noReverse: 0
+    timeFactor: 1
+    fixedTime: 0
+    reward: 2600
+    startFuel: 0
+    fuelDrainPerSecond: 0
+    hazard: 0
+    hazardCount: 0
+    props: 0
+    propCount: 0
+    steps: []
+  - chapter: 0
+    level: 2
+    title: Avoid Traffic
+    story: First time on the main road between normal traffic.
+    objective: Drive through 6 parked cars in a slalom path without hitting any.
+    completeText: Mission complete!
+    altCompleteText: 
+    handBuilt: 1
+    area: 0
+    env: 0
+    maxCrashes: 1
+    maxStrikes: 3
+    speedLimitKmh: 0
+    noReverse: 0
+    timeFactor: 1
+    fixedTime: 0
+    reward: 2700
+    startFuel: 0
+    fuelDrainPerSecond: 0
+    hazard: 0
+    hazardCount: 0
+    props: 0
+    propCount: 0
+    steps: []
+  - chapter: 0
+    level: 3
+    title: First Package
+    story: "Carry a small parcel from a caf\xE9 to the tech shop."
+    objective: "Reach the caf\xE9, auto-pick package, then deliver to the shop before
+      timer ends."
+    completeText: Mission complete!
+    altCompleteText: 
+    handBuilt: 1
+    area: 0
+    env: 0
+    maxCrashes: 1
+    maxStrikes: 3
+    speedLimitKmh: 0
+    noReverse: 0
+    timeFactor: 1
+    fixedTime: 0
+    reward: 2800
+    startFuel: 0
+    fuelDrainPerSecond: 0
+    hazard: 0
+    hazardCount: 0
+    props: 0
+    propCount: 0
+    steps: []
+  - chapter: 0
+    level: 4
+    title: Delivery Route
+    story: Same route again, now the system checks speed and consistency.
+    objective: "Complete Caf\xE9 \u2192 Shop route faster than previous mission.
+      Max 1 crash allowed."
+    completeText: Mission complete!
+    altCompleteText: 
+    handBuilt: 1
+    area: 0
+    env: 0
+    maxCrashes: 1
+    maxStrikes: 3
+    speedLimitKmh: 0
+    noReverse: 0
+    timeFactor: 1
+    fixedTime: 0
+    reward: 2900
+    startFuel: 0
+    fuelDrainPerSecond: 0
+    hazard: 0
+    hazardCount: 0
+    props: 0
+    propCount: 0
+    steps: []
+  - chapter: 0
+    level: 5
+    title: Battery Hunt
+    story: The internal battery is low. 5 energy cells are scattered around the city.
+    objective: Collect 5 battery cells in the correct order before the timer runs
+      out.
+    completeText: Mission complete!
+    altCompleteText: 
+    handBuilt: 1
+    area: 0
+    env: 0
+    maxCrashes: 1
+    maxStrikes: 3
+    speedLimitKmh: 0
+    noReverse: 0
+    timeFactor: 1
+    fixedTime: 0
+    reward: 3000
+    startFuel: 0
+    fuelDrainPerSecond: 0
+    hazard: 0
+    hazardCount: 0
+    props: 0
+    propCount: 0
+    steps: []
+  - chapter: 0
+    level: 6
+    title: Police Scanner
+    story: A police scanner is detected for the first time. Red zones are active.
+    objective: Reach 3 safe checkpoints without entering red scanner zones.
+    completeText: Mission complete!
+    altCompleteText: 
+    handBuilt: 1
+    area: 0
+    env: 0
+    maxCrashes: 1
+    maxStrikes: 3
+    speedLimitKmh: 0
+    noReverse: 0
+    timeFactor: 1
+    fixedTime: 0
+    reward: 3100
+    startFuel: 0
+    fuelDrainPerSecond: 0
+    hazard: 0
+    hazardCount: 0
+    props: 0
+    propCount: 0
+    steps: []
+  - chapter: 0
+    level: 7
+    title: Shortcut Lane
+    story: The AI wants to show you a hidden shortcut lane for future missions.
+    objective: Find the secret alley on the minimap and reach its end without crashing.
+    completeText: Mission complete!
+    altCompleteText: 
+    handBuilt: 1
+    area: 0
+    env: 0
+    maxCrashes: 1
+    maxStrikes: 3
+    speedLimitKmh: 0
+    noReverse: 0
+    timeFactor: 1
+    fixedTime: 0
+    reward: 3200
+    startFuel: 0
+    fuelDrainPerSecond: 0
+    hazard: 0
+    hazardCount: 0
+    props: 0
+    propCount: 0
+    steps: []
+  - chapter: 0
+    level: 8
+    title: Meeting
+    story: An unknown AI car contacts you and asks you to follow it.
+    objective: Follow the AI car at a safe distance without overtaking or hitting
+      it.
+    completeText: Mission complete!
+    altCompleteText: 
+    handBuilt: 1
+    area: 0
+    env: 0
+    maxCrashes: 1
+    maxStrikes: 3
+    speedLimitKmh: 0
+    noReverse: 0
+    timeFactor: 1
+    fixedTime: 0
+    reward: 3300
+    startFuel: 0
+    fuelDrainPerSecond: 0
+    hazard: 0
+    hazardCount: 0
+    props: 0
+    propCount: 0
+    steps: []
+  - chapter: 0
+    level: 9
+    title: Escape Garage 2.0
+    story: Your original facility garage is going into lockdown.
+    objective: Escape through the gate before timer ends and reach the safe street
+      marker.
+    completeText: Mission complete!
+    altCompleteText: 
+    handBuilt: 1
+    area: 0
+    env: 0
+    maxCrashes: 1
+    maxStrikes: 3
+    speedLimitKmh: 0
+    noReverse: 0
+    timeFactor: 1
+    fixedTime: 0
+    reward: 3400
+    startFuel: 0
+    fuelDrainPerSecond: 0
+    hazard: 0
+    hazardCount: 0
+    props: 0
+    propCount: 0
+    steps: []
+  - chapter: 1
+    level: 0
+    title: Taxi Follow
+    story: The hacker wants you to record a suspicious taxi's data.
+    objective: 'Follow the taxi. Not too far, not too close: keep the distance meter
+      green until the route ends.'
+    completeText: Taxi data recorded!
+    altCompleteText: 
+    handBuilt: 0
+    area: 0
+    env: 0
+    maxCrashes: 1
+    maxStrikes: 3
+    speedLimitKmh: 0
+    noReverse: 0
+    timeFactor: 1
+    fixedTime: 0
+    reward: 3000
+    startFuel: 0
+    fuelDrainPerSecond: 0
+    hazard: 0
+    hazardCount: 0
+    props: 0
+    propCount: 0
+    steps:
+    - kind: 5
+      count: 1
+      ordered: 1
+      toStart: 0
+      minDist: 360
+      maxDist: 450
+      radius: 7
+      hold: 3
+      holdMaxSpeedKmh: 25
+      mover: 1
+      moverSpeedKmh: 40
+      nearDist: 8
+      farDist: 40
+      hits: 1
+      duration: 60
+      minKmh: 0
+      maxKmh: 0
+      requiredRank: 1
+      label: Taxi
+      altLabel: 
+  - chapter: 1
+    level: 1
+    title: Red Lights
+    story: The hacker teaches you to hack traffic lights for a safe route.
+    objective: Stop inside 3 traffic-light hack zones until each hack completes,
+      without hitting any pedestrian.
+    completeText: Traffic lights hacked!
+    altCompleteText: 
+    handBuilt: 0
+    area: 0
+    env: 0
+    maxCrashes: 0
+    maxStrikes: 3
+    speedLimitKmh: 0
+    noReverse: 0
+    timeFactor: 1
+    fixedTime: 0
+    reward: 3100
+    startFuel: 0
+    fuelDrainPerSecond: 0
+    hazard: 0
+    hazardCount: 0
+    props: 3
+    propCount: 8
+    steps:
+    - kind: 4
+      count: 3
+      ordered: 1
+      toStart: 0
+      minDist: 100
+      maxDist: 250
+      radius: 6
+      hold: 3
+      holdMaxSpeedKmh: 15
+      mover: 0
+      moverSpeedKmh: 45
+      nearDist: 6
+      farDist: 45
+      hits: 1
+      duration: 60
+      minKmh: 0
+      maxKmh: 0
+      requiredRank: 1
+      label: Traffic Light
+      altLabel: 
+  - chapter: 1
+    level: 2
+    title: Courier Job
+    story: An illegal courier service gives you a test run.
+    objective: Pick up 3 boxes at the warehouse and deliver them to 3 different drop
+      spots in time.
+    completeText: All boxes delivered!
+    altCompleteText: 
+    handBuilt: 0
+    area: 0
+    env: 0
+    maxCrashes: 1
+    maxStrikes: 3
+    speedLimitKmh: 0
+    noReverse: 0
+    timeFactor: 1
+    fixedTime: 0
+    reward: 3200
+    startFuel: 0
+    fuelDrainPerSecond: 0
+    hazard: 0
+    hazardCount: 0
+    props: 0
+    propCount: 0
+    steps:
+    - kind: 2
+      count: 3
+      ordered: 1
+      toStart: 0
+      minDist: 150
+      maxDist: 330
+      radius: 7
+      hold: 3
+      holdMaxSpeedKmh: 25
+      mover: 0
+      moverSpeedKmh: 45
+      nearDist: 6
+      farDist: 45
+      hits: 1
+      duration: 60
+      minKmh: 0
+      maxKmh: 0
+      requiredRank: 1
+      label: Warehouse
+      altLabel: Drop Spot
+  - chapter: 1
+    level: 3
+    title: Pedestrian Guardian
+    story: The system checks your safety priority in a crowded area.
+    objective: Drive slowly through the narrow street and avoid every pedestrian.
+      One hit fails the mission.
+    completeText: Safety priority confirmed!
+    altCompleteText: 
+    handBuilt: 0
+    area: 0
+    env: 0
+    maxCrashes: 0
+    maxStrikes: 3
+    speedLimitKmh: 40
+    noReverse: 0
+    timeFactor: 1
+    fixedTime: 0
+    reward: 3300
+    startFuel: 0
+    fuelDrainPerSecond: 0
+    hazard: 0
+    hazardCount: 0
+    props: 3
+    propCount: 14
+    steps:
+    - kind: 0
+      count: 1
+      ordered: 1
+      toStart: 0
+      minDist: 250
+      maxDist: 400
+      radius: 8
+      hold: 3
+      holdMaxSpeedKmh: 25
+      mover: 0
+      moverSpeedKmh: 45
+      nearDist: 6
+      farDist: 45
+      hits: 1
+      duration: 60
+      minKmh: 0
+      maxKmh: 0
+      requiredRank: 1
+      label: Street End
+      altLabel: 
+  - chapter: 1
+    level: 4
+    title: Meet Hacker
+    story: The hacker wants to meet you in an underground parking.
+    objective: Reach the parking entrance, then park precisely inside the marked
+      slot.
+    completeText: You met the hacker!
+    altCompleteText: 
+    handBuilt: 0
+    area: 0
+    env: 0
+    maxCrashes: 1
+    maxStrikes: 3
+    speedLimitKmh: 0
+    noReverse: 0
+    timeFactor: 1
+    fixedTime: 0
+    reward: 3400
+    startFuel: 0
+    fuelDrainPerSecond: 0
+    hazard: 0
+    hazardCount: 0
+    props: 0
+    propCount: 0
+    steps:
+    - kind: 0
+      count: 1
+      ordered: 1
+      toStart: 0
+      minDist: 200
+      maxDist: 380
+      radius: 8
+      hold: 3
+      holdMaxSpeedKmh: 25
+      mover: 0
+      moverSpeedKmh: 45
+      nearDist: 6
+      farDist: 45
+      hits: 1
+      duration: 60
+      minKmh: 0
+      maxKmh: 0
+      requiredRank: 1
+      label: Parking Entrance
+      altLabel: 
+    - kind: 4
+      count: 1
+      ordered: 1
+      toStart: 0
+      minDist: 25
+      maxDist: 60
+      radius: 3
+      hold: 2
+      holdMaxSpeedKmh: 4
+      mover: 0
+      moverSpeedKmh: 45
+      nearDist: 6
+      farDist: 45
+      hits: 1
+      duration: 60
+      minKmh: 0
+      maxKmh: 0
+      requiredRank: 1
+      label: Parking Slot
+      altLabel: 
+  - chapter: 1
+    level: 5
+    title: City Tour
+    story: The hacker shows you the city layout using checkpoints.
+    objective: Pass all 6 city checkpoints in any order before the time runs out.
+    completeText: City layout mapped!
+    altCompleteText: 
+    handBuilt: 0
+    area: 0
+    env: 0
+    maxCrashes: 1
+    maxStrikes: 3
+    speedLimitKmh: 0
+    noReverse: 0
+    timeFactor: 1
+    fixedTime: 0
+    reward: 3500
+    startFuel: 0
+    fuelDrainPerSecond: 0
+    hazard: 0
+    hazardCount: 0
+    props: 0
+    propCount: 0
+    steps:
+    - kind: 1
+      count: 6
+      ordered: 0
+      toStart: 0
+      minDist: 150
+      maxDist: 420
+      radius: 8
+      hold: 3
+      holdMaxSpeedKmh: 25
+      mover: 0
+      moverSpeedKmh: 45
+      nearDist: 6
+      farDist: 45
+      hits: 1
+      duration: 60
+      minKmh: 0
+      maxKmh: 0
+      requiredRank: 1
+      label: Checkpoint
+      altLabel: 
+  - chapter: 1
+    level: 6
+    title: Construction Zone
+    story: Road construction is going on and you must cross the risky area.
+    objective: Avoid cones, barriers and potholes and reach the exit point. Max 2
+      minor hits allowed.
+    completeText: Construction zone cleared!
+    altCompleteText: 
+    handBuilt: 0
+    area: 0
+    env: 0
+    maxCrashes: 2
+    maxStrikes: 3
+    speedLimitKmh: 0
+    noReverse: 0
+    timeFactor: 1
+    fixedTime: 0
+    reward: 3600
+    startFuel: 0
+    fuelDrainPerSecond: 0
+    hazard: 0
+    hazardCount: 0
+    props: 2
+    propCount: 30
+    steps:
+    - kind: 0
+      count: 1
+      ordered: 1
+      toStart: 0
+      minDist: 300
+      maxDist: 450
+      radius: 8
+      hold: 3
+      holdMaxSpeedKmh: 25
+      mover: 0
+      moverSpeedKmh: 45
+      nearDist: 6
+      farDist: 45
+      hits: 1
+      duration: 60
+      minKmh: 0
+      maxKmh: 0
+      requiredRank: 1
+      label: Exit
+      altLabel: 
+  - chapter: 1
+    level: 7
+    title: Speed Trial
+    story: The AI engine wants to test your maximum speed.
+    objective: Accelerate on the strip and touch 120 km/h before the end of the speed
+      trap.
+    completeText: Top speed confirmed!
+    altCompleteText: 
+    handBuilt: 0
+    area: 0
+    env: 0
+    maxCrashes: 1
+    maxStrikes: 3
+    speedLimitKmh: 0
+    noReverse: 0
+    timeFactor: 1
+    fixedTime: 0
+    reward: 3700
+    startFuel: 0
+    fuelDrainPerSecond: 0
+    hazard: 0
+    hazardCount: 0
+    props: 0
+    propCount: 0
+    steps:
+    - kind: 11
+      count: 1
+      ordered: 1
+      toStart: 0
+      minDist: 120
+      maxDist: 420
+      radius: 7
+      hold: 3
+      holdMaxSpeedKmh: 25
+      mover: 0
+      moverSpeedKmh: 45
+      nearDist: 6
+      farDist: 45
+      hits: 1
+      duration: 60
+      minKmh: 120
+      maxKmh: 0
+      requiredRank: 1
+      label: Speed Trap
+      altLabel: 
+  - chapter: 1
+    level: 8
+    title: Fuel Rescue
+    story: Fuel is almost empty and the nearest station is far.
+    objective: The fuel bar is draining. Choose the direct route and reach the fuel
+      station marker in time.
+    completeText: Refuelled just in time!
+    altCompleteText: 
+    handBuilt: 0
+    area: 0
+    env: 0
+    maxCrashes: 1
+    maxStrikes: 3
+    speedLimitKmh: 0
+    noReverse: 0
+    timeFactor: 1
+    fixedTime: 0
+    reward: 3800
+    startFuel: 22
+    fuelDrainPerSecond: 0.35
+    hazard: 0
+    hazardCount: 0
+    props: 0
+    propCount: 0
+    steps:
+    - kind: 0
+      count: 1
+      ordered: 1
+      toStart: 0
+      minDist: 260
+      maxDist: 420
+      radius: 8
+      hold: 3
+      holdMaxSpeedKmh: 25
+      mover: 0
+      moverSpeedKmh: 45
+      nearDist: 6
+      farDist: 45
+      hits: 1
+      duration: 60
+      minKmh: 0
+      maxKmh: 0
+      requiredRank: 1
+      label: Fuel Station
+      altLabel: 
+  - chapter: 1
+    level: 9
+    title: Lost Car Rescue
+    story: The AI car you met in Chapter 1 is in breakdown mode.
+    objective: Reach the broken AI car, connect remote tow, then escort it slowly
+      to the safe garage.
+    completeText: Your friend is safe!
+    altCompleteText: 
+    handBuilt: 0
+    area: 0
+    env: 0
+    maxCrashes: 1
+    maxStrikes: 3
+    speedLimitKmh: 0
+    noReverse: 0
+    timeFactor: 1
+    fixedTime: 0
+    reward: 3900
+    startFuel: 0
+    fuelDrainPerSecond: 0
+    hazard: 0
+    hazardCount: 0
+    props: 0
+    propCount: 0
+    steps:
+    - kind: 0
+      count: 1
+      ordered: 1
+      toStart: 0
+      minDist: 150
+      maxDist: 300
+      radius: 8
+      hold: 3
+      holdMaxSpeedKmh: 25
+      mover: 0
+      moverSpeedKmh: 45
+      nearDist: 6
+      farDist: 45
+      hits: 1
+      duration: 60
+      minKmh: 0
+      maxKmh: 0
+      requiredRank: 1
+      label: Broken AI Car
+      altLabel: 
+    - kind: 8
+      count: 1
+      ordered: 1
+      toStart: 0
+      minDist: 250
+      maxDist: 400
+      radius: 9
+      hold: 3
+      holdMaxSpeedKmh: 25
+      mover: 0
+      moverSpeedKmh: 45
+      nearDist: 6
+      farDist: 45
+      hits: 1
+      duration: 60
+      minKmh: 0
+      maxKmh: 45
+      requiredRank: 1
+      label: Safe Garage
+      altLabel: 
+  - chapter: 2
+    level: 0
+    title: Hacker Pickup
+    story: The hacker dropped a small device on the roadside for you.
+    objective: Slow down at the device marker to pick it up, then take it to the
+      safe alley without crashing.
+    completeText: Device secured!
+    altCompleteText: 
+    handBuilt: 0
+    area: 0
+    env: 0
+    maxCrashes: 0
+    maxStrikes: 3
+    speedLimitKmh: 0
+    noReverse: 0
+    timeFactor: 1
+    fixedTime: 0
+    reward: 3500
+    startFuel: 0
+    fuelDrainPerSecond: 0
+    hazard: 0
+    hazardCount: 0
+    props: 0
+    propCount: 0
+    steps:
+    - kind: 4
+      count: 1
+      ordered: 1
+      toStart: 0
+      minDist: 150
+      maxDist: 300
+      radius: 5
+      hold: 1.5
+      holdMaxSpeedKmh: 20
+      mover: 0
+      moverSpeedKmh: 45
+      nearDist: 6
+      farDist: 45
+      hits: 1
+      duration: 60
+      minKmh: 0
+      maxKmh: 0
+      requiredRank: 1
+      label: Device
+      altLabel: 
+    - kind: 0
+      count: 1
+      ordered: 1
+      toStart: 0
+      minDist: 200
+      maxDist: 350
+      radius: 8
+      hold: 3
+      holdMaxSpeedKmh: 25
+      mover: 0
+      moverSpeedKmh: 45
+      nearDist: 6
+      farDist: 45
+      hits: 1
+      duration: 60
+      minKmh: 0
+      maxKmh: 0
+      requiredRank: 1
+      label: Safe Alley
+      altLabel: 
+  - chapter: 2
+    level: 1
+    title: Signal Hijack
+    story: Now you hijack the local traffic network.
+    objective: Stop at 4 junctions to complete each hack, then return to the central
+      marker.
+    completeText: Traffic network hijacked!
+    altCompleteText: 
+    handBuilt: 0
+    area: 0
+    env: 0
+    maxCrashes: 1
+    maxStrikes: 3
+    speedLimitKmh: 0
+    noReverse: 0
+    timeFactor: 1
+    fixedTime: 0
+    reward: 3600
+    startFuel: 0
+    fuelDrainPerSecond: 0
+    hazard: 0
+    hazardCount: 0
+    props: 0
+    propCount: 0
+    steps:
+    - kind: 4
+      count: 4
+      ordered: 1
+      toStart: 0
+      minDist: 120
+      maxDist: 260
+      radius: 7
+      hold: 3
+      holdMaxSpeedKmh: 15
+      mover: 0
+      moverSpeedKmh: 45
+      nearDist: 6
+      farDist: 45
+      hits: 1
+      duration: 60
+      minKmh: 0
+      maxKmh: 0
+      requiredRank: 1
+      label: Junction
+      altLabel: 
+    - kind: 0
+      count: 1
+      ordered: 1
+      toStart: 1
+      minDist: 120
+      maxDist: 320
+      radius: 9
+      hold: 3
+      holdMaxSpeedKmh: 25
+      mover: 0
+      moverSpeedKmh: 45
+      nearDist: 6
+      farDist: 45
+      hits: 1
+      duration: 60
+      minKmh: 0
+      maxKmh: 0
+      requiredRank: 1
+      label: Central Marker
+      altLabel: 
+  - chapter: 2
+    level: 2
+    title: Van Chase
+    story: A spy van is moving slowly with stolen data.
+    objective: Drive parallel to the spy van until the upload bar is full. Avoid
+      collisions.
+    completeText: Data stolen from the van!
+    altCompleteText: 
+    handBuilt: 0
+    area: 0
+    env: 0
+    maxCrashes: 0
+    maxStrikes: 3
+    speedLimitKmh: 0
+    noReverse: 0
+    timeFactor: 1
+    fixedTime: 0
+    reward: 3700
+    startFuel: 0
+    fuelDrainPerSecond: 0
+    hazard: 0
+    hazardCount: 0
+    props: 0
+    propCount: 0
+    steps:
+    - kind: 6
+      count: 1
+      ordered: 1
+      toStart: 0
+      minDist: 250
+      maxDist: 450
+      radius: 7
+      hold: 3
+      holdMaxSpeedKmh: 25
+      mover: 2
+      moverSpeedKmh: 45
+      nearDist: 2.5
+      farDist: 9
+      hits: 1
+      duration: 5
+      minKmh: 0
+      maxKmh: 0
+      requiredRank: 1
+      label: Spy Van
+      altLabel: 
+  - chapter: 2
+    level: 3
+    title: Hidden Tunnel
+    story: The hacker shows a hidden tunnel that will confuse the police.
+    objective: Find the tunnel entrance, then follow the complete tunnel route.
+    completeText: Hidden tunnel learned!
+    altCompleteText: 
+    handBuilt: 0
+    area: 0
+    env: 1
+    maxCrashes: 1
+    maxStrikes: 3
+    speedLimitKmh: 0
+    noReverse: 0
+    timeFactor: 1
+    fixedTime: 0
+    reward: 3800
+    startFuel: 0
+    fuelDrainPerSecond: 0
+    hazard: 0
+    hazardCount: 0
+    props: 0
+    propCount: 0
+    steps:
+    - kind: 0
+      count: 1
+      ordered: 1
+      toStart: 0
+      minDist: 250
+      maxDist: 400
+      radius: 8
+      hold: 3
+      holdMaxSpeedKmh: 25
+      mover: 0
+      moverSpeedKmh: 45
+      nearDist: 6
+      farDist: 45
+      hits: 1
+      duration: 60
+      minKmh: 0
+      maxKmh: 0
+      requiredRank: 1
+      label: Tunnel Entrance
+      altLabel: 
+    - kind: 1
+      count: 4
+      ordered: 1
+      toStart: 0
+      minDist: 60
+      maxDist: 120
+      radius: 8
+      hold: 3
+      holdMaxSpeedKmh: 25
+      mover: 0
+      moverSpeedKmh: 45
+      nearDist: 6
+      farDist: 45
+      hits: 1
+      duration: 60
+      minKmh: 0
+      maxKmh: 0
+      requiredRank: 1
+      label: Tunnel
+      altLabel: 
+  - chapter: 2
+    level: 4
+    title: Speed with Device
+    story: An overheating chip must reach a cool place fast.
+    objective: Take the shortest route to the cool-zone marker before the chip heat
+      meter is full.
+    completeText: Chip cooled down!
+    altCompleteText: 
+    handBuilt: 0
+    area: 3
+    env: 0
+    maxCrashes: 1
+    maxStrikes: 3
+    speedLimitKmh: 0
+    noReverse: 0
+    timeFactor: 0.8
+    fixedTime: 0
+    reward: 3900
+    startFuel: 0
+    fuelDrainPerSecond: 0
+    hazard: 0
+    hazardCount: 0
+    props: 0
+    propCount: 0
+    steps:
+    - kind: 0
+      count: 1
+      ordered: 1
+      toStart: 0
+      minDist: 450
+      maxDist: 700
+      radius: 8
+      hold: 3
+      holdMaxSpeedKmh: 25
+      mover: 0
+      moverSpeedKmh: 45
+      nearDist: 6
+      farDist: 45
+      hits: 1
+      duration: 60
+      minKmh: 0
+      maxKmh: 0
+      requiredRank: 1
+      label: Cool Zone
+      altLabel: 
+  - chapter: 2
+    level: 5
+    title: Night Run
+    story: The city's first full night test run.
+    objective: Complete 5 checkpoints at night with headlights on, without losing
+      control.
+    completeText: Night run complete!
+    altCompleteText: 
+    handBuilt: 0
+    area: 0
+    env: 2
+    maxCrashes: 1
+    maxStrikes: 3
+    speedLimitKmh: 0
+    noReverse: 0
+    timeFactor: 1
+    fixedTime: 0
+    reward: 4000
+    startFuel: 0
+    fuelDrainPerSecond: 0
+    hazard: 0
+    hazardCount: 0
+    props: 0
+    propCount: 0
+    steps:
+    - kind: 1
+      count: 5
+      ordered: 1
+      toStart: 0
+      minDist: 150
+      maxDist: 300
+      radius: 8
+      hold: 3
+      holdMaxSpeedKmh: 25
+      mover: 0
+      moverSpeedKmh: 45
+      nearDist: 6
+      farDist: 45
+      hits: 1
+      duration: 60
+      minKmh: 0
+      maxKmh: 0
+      requiredRank: 1
+      label: Checkpoint
+      altLabel: 
+  - chapter: 2
+    level: 6
+    title: Secret Data Drop
+    story: Drop data for a dark web client.
+    objective: Stop at the crate until the virtual drop completes, then leave without
+      attracting attention.
+    completeText: Data dropped silently!
+    altCompleteText: 
+    handBuilt: 0
+    area: 0
+    env: 0
+    maxCrashes: 1
+    maxStrikes: 3
+    speedLimitKmh: 60
+    noReverse: 0
+    timeFactor: 1
+    fixedTime: 0
+    reward: 4100
+    startFuel: 0
+    fuelDrainPerSecond: 0
+    hazard: 0
+    hazardCount: 0
+    props: 0
+    propCount: 0
+    steps:
+    - kind: 4
+      count: 1
+      ordered: 1
+      toStart: 0
+      minDist: 200
+      maxDist: 350
+      radius: 5
+      hold: 6
+      holdMaxSpeedKmh: 5
+      mover: 0
+      moverSpeedKmh: 45
+      nearDist: 6
+      farDist: 45
+      hits: 1
+      duration: 60
+      minKmh: 0
+      maxKmh: 0
+      requiredRank: 1
+      label: Crate
+      altLabel: 
+    - kind: 0
+      count: 1
+      ordered: 1
+      toStart: 0
+      minDist: 150
+      maxDist: 250
+      radius: 8
+      hold: 3
+      holdMaxSpeedKmh: 25
+      mover: 0
+      moverSpeedKmh: 45
+      nearDist: 6
+      farDist: 45
+      hits: 1
+      duration: 60
+      minKmh: 0
+      maxKmh: 0
+      requiredRank: 1
+      label: Leave Area
+      altLabel: 
+  - chapter: 2
+    level: 7
+    title: Outrun Drone
+    story: A surveillance drone starts tracking you.
+    objective: Avoid the drone spotlights and reach the safe tunnel. Spotted more
+      than 3 times = fail.
+    completeText: Drone lost your trail!
+    altCompleteText: 
+    handBuilt: 0
+    area: 0
+    env: 0
+    maxCrashes: 1
+    maxStrikes: 3
+    speedLimitKmh: 0
+    noReverse: 0
+    timeFactor: 1
+    fixedTime: 0
+    reward: 4200
+    startFuel: 0
+    fuelDrainPerSecond: 0
+    hazard: 2
+    hazardCount: 2
+    props: 0
+    propCount: 0
+    steps:
+    - kind: 0
+      count: 1
+      ordered: 1
+      toStart: 0
+      minDist: 400
+      maxDist: 600
+      radius: 8
+      hold: 3
+      holdMaxSpeedKmh: 25
+      mover: 0
+      moverSpeedKmh: 45
+      nearDist: 6
+      farDist: 45
+      hits: 1
+      duration: 60
+      minKmh: 0
+      maxKmh: 0
+      requiredRank: 1
+      label: Safe Tunnel
+      altLabel: 
+  - chapter: 2
+    level: 8
+    title: Battery Backup
+    story: Take a secret charge from the power grid.
+    objective: Circle the backup generator until the energy siphon completes, then
+      escape before police arrive.
+    completeText: Energy siphoned!
+    altCompleteText: 
+    handBuilt: 0
+    area: 0
+    env: 0
+    maxCrashes: 1
+    maxStrikes: 3
+    speedLimitKmh: 0
+    noReverse: 0
+    timeFactor: 1
+    fixedTime: 0
+    reward: 4300
+    startFuel: 0
+    fuelDrainPerSecond: 0
+    hazard: 0
+    hazardCount: 0
+    props: 0
+    propCount: 0
+    steps:
+    - kind: 4
+      count: 1
+      ordered: 1
+      toStart: 0
+      minDist: 150
+      maxDist: 300
+      radius: 16
+      hold: 8
+      holdMaxSpeedKmh: 0
+      mover: 0
+      moverSpeedKmh: 45
+      nearDist: 6
+      farDist: 45
+      hits: 1
+      duration: 60
+      minKmh: 10
+      maxKmh: 0
+      requiredRank: 1
+      label: Generator
+      altLabel: 
+    - kind: 9
+      count: 2
+      ordered: 1
+      toStart: 0
+      minDist: 300
+      maxDist: 450
+      radius: 10
+      hold: 3
+      holdMaxSpeedKmh: 25
+      mover: 5
+      moverSpeedKmh: 85
+      nearDist: 6
+      farDist: 45
+      hits: 1
+      duration: 0
+      minKmh: 0
+      maxKmh: 0
+      requiredRank: 1
+      label: Escape Point
+      altLabel: 
+  - chapter: 2
+    level: 9
+    title: Broadcast Hack
+    story: Disrupt the police radio frequency.
+    objective: Drive side by side with 3 radio tower vans to activate the jammer,
+      then return to base.
+    completeText: Police radio jammed!
+    altCompleteText: 
+    handBuilt: 0
+    area: 0
+    env: 0
+    maxCrashes: 1
+    maxStrikes: 3
+    speedLimitKmh: 0
+    noReverse: 0
+    timeFactor: 1
+    fixedTime: 0
+    reward: 4400
+    startFuel: 0
+    fuelDrainPerSecond: 0
+    hazard: 0
+    hazardCount: 0
+    props: 0
+    propCount: 0
+    steps:
+    - kind: 6
+      count: 3
+      ordered: 1
+      toStart: 0
+      minDist: 250
+      maxDist: 450
+      radius: 7
+      hold: 3
+      holdMaxSpeedKmh: 25
+      mover: 2
+      moverSpeedKmh: 40
+      nearDist: 2.5
+      farDist: 9
+      hits: 1
+      duration: 4
+      minKmh: 0
+      maxKmh: 0
+      requiredRank: 1
+      label: Radio Van
+      altLabel: 
+    - kind: 0
+      count: 1
+      ordered: 1
+      toStart: 1
+      minDist: 120
+      maxDist: 320
+      radius: 9
+      hold: 3
+      holdMaxSpeedKmh: 25
+      mover: 0
+      moverSpeedKmh: 45
+      nearDist: 6
+      farDist: 45
+      hits: 1
+      duration: 60
+      minKmh: 0
+      maxKmh: 0
+      requiredRank: 1
+      label: Base
+      altLabel: 
+  - chapter: 3
+    level: 0
+    title: City Lockdown
+    story: City-wide checkpoints are up. You are wanted.
+    objective: Avoid the red checkpoint zones and use alternate routes to reach the
+      safe house.
+    completeText: You reached the safe house!
+    altCompleteText: 
+    handBuilt: 0
+    area: 0
+    env: 0
+    maxCrashes: 1
+    maxStrikes: 3
+    speedLimitKmh: 0
+    noReverse: 0
+    timeFactor: 1
+    fixedTime: 0
+    reward: 4000
+    startFuel: 0
+    fuelDrainPerSecond: 0
+    hazard: 1
+    hazardCount: 6
+    props: 0
+    propCount: 0
+    steps:
+    - kind: 0
+      count: 1
+      ordered: 1
+      toStart: 0
+      minDist: 500
+      maxDist: 700
+      radius: 8
+      hold: 3
+      holdMaxSpeedKmh: 25
+      mover: 0
+      moverSpeedKmh: 45
+      nearDist: 6
+      farDist: 45
+      hits: 1
+      duration: 60
+      minKmh: 0
+      maxKmh: 0
+      requiredRank: 1
+      label: Safe House
+      altLabel: 
+  - chapter: 3
+    level: 1
+    title: Siren Alert
+    story: Direct police chase test.
+    objective: A police car is behind you. Keep away from it for 60 seconds. Getting
+      caught fails.
+    completeText: You escaped the police!
+    altCompleteText: 
+    handBuilt: 0
+    area: 0
+    env: 0
+    maxCrashes: 1
+    maxStrikes: 3
+    speedLimitKmh: 0
+    noReverse: 0
+    timeFactor: 1
+    fixedTime: 0
+    reward: 4100
+    startFuel: 0
+    fuelDrainPerSecond: 0
+    hazard: 0
+    hazardCount: 0
+    props: 0
+    propCount: 0
+    steps:
+    - kind: 9
+      count: 1
+      ordered: 1
+      toStart: 0
+      minDist: 0
+      maxDist: 0
+      radius: 10
+      hold: 3
+      holdMaxSpeedKmh: 25
+      mover: 5
+      moverSpeedKmh: 95
+      nearDist: 6
+      farDist: 45
+      hits: 1
+      duration: 60
+      minKmh: 0
+      maxKmh: 0
+      requiredRank: 1
+      label: Safe Zone
+      altLabel: 
+  - chapter: 3
+    level: 2
+    title: Safe Zone Reach
+    story: The mall basement parking is the safest place now.
+    objective: Reach the mall entrance, then park precisely in the basement slot.
+    completeText: Hidden in the basement!
+    altCompleteText: 
+    handBuilt: 0
+    area: 0
+    env: 0
+    maxCrashes: 1
+    maxStrikes: 3
+    speedLimitKmh: 0
+    noReverse: 0
+    timeFactor: 1
+    fixedTime: 0
+    reward: 4200
+    startFuel: 0
+    fuelDrainPerSecond: 0
+    hazard: 0
+    hazardCount: 0
+    props: 0
+    propCount: 0
+    steps:
+    - kind: 0
+      count: 1
+      ordered: 1
+      toStart: 0
+      minDist: 350
+      maxDist: 500
+      radius: 8
+      hold: 3
+      holdMaxSpeedKmh: 25
+      mover: 0
+      moverSpeedKmh: 45
+      nearDist: 6
+      farDist: 45
+      hits: 1
+      duration: 60
+      minKmh: 0
+      maxKmh: 0
+      requiredRank: 1
+      label: Mall Entrance
+      altLabel: 
+    - kind: 4
+      count: 1
+      ordered: 1
+      toStart: 0
+      minDist: 30
+      maxDist: 70
+      radius: 3
+      hold: 2
+      holdMaxSpeedKmh: 4
+      mover: 0
+      moverSpeedKmh: 45
+      nearDist: 6
+      farDist: 45
+      hits: 1
+      duration: 60
+      minKmh: 0
+      maxKmh: 0
+      requiredRank: 1
+      label: Basement Slot
+      altLabel: 
+  - chapter: 3
+    level: 3
+    title: Tuning Upgrade
+    story: The hacker arranged a hidden tuner garage.
+    objective: Avoid the surveillance drones and reach the tuner garage gate.
+    completeText: Upgrade installed!
+    altCompleteText: 
+    handBuilt: 0
+    area: 0
+    env: 0
+    maxCrashes: 1
+    maxStrikes: 3
+    speedLimitKmh: 0
+    noReverse: 0
+    timeFactor: 1
+    fixedTime: 0
+    reward: 4300
+    startFuel: 0
+    fuelDrainPerSecond: 0
+    hazard: 2
+    hazardCount: 3
+    props: 0
+    propCount: 0
+    steps:
+    - kind: 0
+      count: 1
+      ordered: 1
+      toStart: 0
+      minDist: 450
+      maxDist: 650
+      radius: 8
+      hold: 3
+      holdMaxSpeedKmh: 25
+      mover: 0
+      moverSpeedKmh: 45
+      nearDist: 6
+      farDist: 45
+      hits: 1
+      duration: 60
+      minKmh: 0
+      maxKmh: 0
+      requiredRank: 1
+      label: Tuner Garage
+      altLabel: 
+  - chapter: 3
+    level: 4
+    title: Convoy Avoid
+    story: A police armored convoy blocks the road.
+    objective: Bypass the convoy without touching any armored truck and reach the
+      next area.
+    completeText: Convoy bypassed!
+    altCompleteText: 
+    handBuilt: 0
+    area: 0
+    env: 0
+    maxCrashes: 0
+    maxStrikes: 3
+    speedLimitKmh: 0
+    noReverse: 0
+    timeFactor: 1
+    fixedTime: 0
+    reward: 4400
+    startFuel: 0
+    fuelDrainPerSecond: 0
+    hazard: 0
+    hazardCount: 0
+    props: 5
+    propCount: 5
+    steps:
+    - kind: 0
+      count: 1
+      ordered: 1
+      toStart: 0
+      minDist: 400
+      maxDist: 600
+      radius: 8
+      hold: 3
+      holdMaxSpeedKmh: 25
+      mover: 0
+      moverSpeedKmh: 45
+      nearDist: 6
+      farDist: 45
+      hits: 1
+      duration: 60
+      minKmh: 0
+      maxKmh: 0
+      requiredRank: 1
+      label: Next Area
+      altLabel: 
+  - chapter: 3
+    level: 5
+    title: Bridge Control
+    story: The bridge has a toll and scan system.
+    objective: Drive slowly, avoid the scanner zones and get to the other side.
+    completeText: Scanner bypassed!
+    altCompleteText: 
+    handBuilt: 0
+    area: 0
+    env: 0
+    maxCrashes: 1
+    maxStrikes: 3
+    speedLimitKmh: 45
+    noReverse: 0
+    timeFactor: 1
+    fixedTime: 0
+    reward: 4500
+    startFuel: 0
+    fuelDrainPerSecond: 0
+    hazard: 1
+    hazardCount: 3
+    props: 0
+    propCount: 0
+    steps:
+    - kind: 0
+      count: 1
+      ordered: 1
+      toStart: 0
+      minDist: 250
+      maxDist: 400
+      radius: 8
+      hold: 3
+      holdMaxSpeedKmh: 25
+      mover: 0
+      moverSpeedKmh: 45
+      nearDist: 6
+      farDist: 45
+      hits: 1
+      duration: 60
+      minKmh: 0
+      maxKmh: 0
+      requiredRank: 1
+      label: Bridge Exit
+      altLabel: 
+  - chapter: 3
+    level: 6
+    title: Rescue Car 02
+    story: Another AI car is about to be arrested.
+    objective: Shadow the police tow truck, then unlock the AI car before it reaches
+      the tow point.
+    completeText: Car 02 unlocked!
+    altCompleteText: 
+    handBuilt: 0
+    area: 0
+    env: 0
+    maxCrashes: 1
+    maxStrikes: 3
+    speedLimitKmh: 0
+    noReverse: 0
+    timeFactor: 1
+    fixedTime: 0
+    reward: 4600
+    startFuel: 0
+    fuelDrainPerSecond: 0
+    hazard: 0
+    hazardCount: 0
+    props: 0
+    propCount: 0
+    steps:
+    - kind: 5
+      count: 1
+      ordered: 1
+      toStart: 0
+      minDist: 304
+      maxDist: 380
+      radius: 7
+      hold: 3
+      holdMaxSpeedKmh: 25
+      mover: 3
+      moverSpeedKmh: 45
+      nearDist: 10
+      farDist: 60
+      hits: 1
+      duration: 60
+      minKmh: 0
+      maxKmh: 0
+      requiredRank: 1
+      label: Tow Truck
+      altLabel: 
+    - kind: 4
+      count: 1
+      ordered: 1
+      toStart: 0
+      minDist: 40
+      maxDist: 90
+      radius: 6
+      hold: 3
+      holdMaxSpeedKmh: 15
+      mover: 0
+      moverSpeedKmh: 45
+      nearDist: 6
+      farDist: 45
+      hits: 1
+      duration: 60
+      minKmh: 0
+      maxKmh: 0
+      requiredRank: 1
+      label: AI Car 02
+      altLabel: 
+  - chapter: 3
+    level: 7
+    title: Traffic Jam
+    story: A huge traffic jam blocks the city centre.
+    objective: Weave carefully between the blocked cars and reach the other side.
+      No reversing.
+    completeText: Traffic jam crossed!
+    altCompleteText: 
+    handBuilt: 0
+    area: 0
+    env: 0
+    maxCrashes: 2
+    maxStrikes: 3
+    speedLimitKmh: 0
+    noReverse: 1
+    timeFactor: 1
+    fixedTime: 0
+    reward: 4700
+    startFuel: 0
+    fuelDrainPerSecond: 0
+    hazard: 0
+    hazardCount: 0
+    props: 4
+    propCount: 24
+    steps:
+    - kind: 0
+      count: 1
+      ordered: 1
+      toStart: 0
+      minDist: 300
+      maxDist: 450
+      radius: 8
+      hold: 3
+      holdMaxSpeedKmh: 25
+      mover: 0
+      moverSpeedKmh: 45
+      nearDist: 6
+      farDist: 45
+      hits: 1
+      duration: 60
+      minKmh: 0
+      maxKmh: 0
+      requiredRank: 1
+      label: Other Side
+      altLabel: 
+  - chapter: 3
+    level: 8
+    title: Night Police Chase
+    story: High alert night mode with multiple police cars.
+    objective: Use narrow streets and alleys to survive the chase for 90 seconds.
+    completeText: You lost them in the dark!
+    altCompleteText: 
+    handBuilt: 0
+    area: 0
+    env: 2
+    maxCrashes: 2
+    maxStrikes: 3
+    speedLimitKmh: 0
+    noReverse: 0
+    timeFactor: 1
+    fixedTime: 0
+    reward: 4800
+    startFuel: 0
+    fuelDrainPerSecond: 0
+    hazard: 0
+    hazardCount: 0
+    props: 0
+    propCount: 0
+    steps:
+    - kind: 9
+      count: 3
+      ordered: 1
+      toStart: 0
+      minDist: 0
+      maxDist: 0
+      radius: 10
+      hold: 3
+      holdMaxSpeedKmh: 25
+      mover: 5
+      moverSpeedKmh: 100
+      nearDist: 6
+      farDist: 45
+      hits: 1
+      duration: 90
+      minKmh: 0
+      maxKmh: 0
+      requiredRank: 1
+      label: Safe Zone
+      altLabel: 
+  - chapter: 3
+    level: 9
+    title: Underground Escape
+    story: The ground is unsafe; tunnels are the only option.
+    objective: Go through the underground route and choose the correct forks to reach
+      the exit.
+    completeText: You escaped underground!
+    altCompleteText: 
+    handBuilt: 0
+    area: 0
+    env: 2
+    maxCrashes: 1
+    maxStrikes: 3
+    speedLimitKmh: 0
+    noReverse: 0
+    timeFactor: 1
+    fixedTime: 0
+    reward: 4900
+    startFuel: 0
+    fuelDrainPerSecond: 0
+    hazard: 0
+    hazardCount: 0
+    props: 0
+    propCount: 0
+    steps:
+    - kind: 1
+      count: 5
+      ordered: 1
+      toStart: 0
+      minDist: 100
+      maxDist: 200
+      radius: 8
+      hold: 3
+      holdMaxSpeedKmh: 25
+      mover: 0
+      moverSpeedKmh: 45
+      nearDist: 6
+      farDist: 45
+      hits: 1
+      duration: 60
+      minKmh: 0
+      maxKmh: 0
+      requiredRank: 1
+      label: Tunnel Fork
+      altLabel: 
+  - chapter: 4
+    level: 0
+    title: Subway Chase
+    story: You are in a tunnel parallel to the metro line and a train is racing you.
+    objective: Beat the train to the finish line without touching it.
+    completeText: You beat the train!
+    altCompleteText: 
+    handBuilt: 0
+    area: 0
+    env: 2
+    maxCrashes: 1
+    maxStrikes: 3
+    speedLimitKmh: 0
+    noReverse: 0
+    timeFactor: 1
+    fixedTime: 0
+    reward: 4500
+    startFuel: 0
+    fuelDrainPerSecond: 0
+    hazard: 0
+    hazardCount: 0
+    props: 0
+    propCount: 0
+    steps:
+    - kind: 10
+      count: 1
+      ordered: 1
+      toStart: 0
+      minDist: 90
+      maxDist: 170
+      radius: 10
+      hold: 3
+      holdMaxSpeedKmh: 25
+      mover: 6
+      moverSpeedKmh: 90
+      nearDist: 6
+      farDist: 45
+      hits: 1
+      duration: 6
+      minKmh: 0
+      maxKmh: 0
+      requiredRank: 1
+      label: Race
+      altLabel: 
+  - chapter: 4
+    level: 1
+    title: Off-Road 1
+    story: A muddy off-road trail outside the tunnels.
+    objective: Keep control on the slippery surface and follow the trail checkpoints.
+    completeText: Off-road trail complete!
+    altCompleteText: 
+    handBuilt: 0
+    area: 2
+    env: 0
+    maxCrashes: 2
+    maxStrikes: 3
+    speedLimitKmh: 0
+    noReverse: 0
+    timeFactor: 1
+    fixedTime: 0
+    reward: 4600
+    startFuel: 0
+    fuelDrainPerSecond: 0
+    hazard: 0
+    hazardCount: 0
+    props: 0
+    propCount: 0
+    steps:
+    - kind: 1
+      count: 6
+      ordered: 1
+      toStart: 0
+      minDist: 80
+      maxDist: 160
+      radius: 8
+      hold: 3
+      holdMaxSpeedKmh: 25
+      mover: 0
+      moverSpeedKmh: 45
+      nearDist: 6
+      farDist: 45
+      hits: 1
+      duration: 60
+      minKmh: 0
+      maxKmh: 0
+      requiredRank: 1
+      label: Trail
+      altLabel: 
+  - chapter: 4
+    level: 2
+    title: Battery Theft
+    story: Police trucks are carrying advanced batteries.
+    objective: Drive beside 2 slow trucks until each battery is siphoned. No direct
+      hits.
+    completeText: Batteries siphoned!
+    altCompleteText: 
+    handBuilt: 0
+    area: 0
+    env: 0
+    maxCrashes: 0
+    maxStrikes: 3
+    speedLimitKmh: 0
+    noReverse: 0
+    timeFactor: 1
+    fixedTime: 0
+    reward: 4700
+    startFuel: 0
+    fuelDrainPerSecond: 0
+    hazard: 0
+    hazardCount: 0
+    props: 0
+    propCount: 0
+    steps:
+    - kind: 6
+      count: 2
+      ordered: 1
+      toStart: 0
+      minDist: 250
+      maxDist: 450
+      radius: 7
+      hold: 3
+      holdMaxSpeedKmh: 25
+      mover: 3
+      moverSpeedKmh: 40
+      nearDist: 2.5
+      farDist: 9
+      hits: 1
+      duration: 3
+      minKmh: 0
+      maxKmh: 0
+      requiredRank: 1
+      label: Battery Truck
+      altLabel: 
+  - chapter: 4
+    level: 3
+    title: Dark Tunnel
+    story: A section of the tunnel is in total blackout.
+    objective: Headlights have limited range. Go slow, dodge falling debris and reach
+      the exit.
+    completeText: Out of the dark!
+    altCompleteText: 
+    handBuilt: 0
+    area: 0
+    env: 5
+    maxCrashes: 1
+    maxStrikes: 3
+    speedLimitKmh: 0
+    noReverse: 0
+    timeFactor: 1
+    fixedTime: 0
+    reward: 4800
+    startFuel: 0
+    fuelDrainPerSecond: 0
+    hazard: 6
+    hazardCount: 1
+    props: 0
+    propCount: 0
+    steps:
+    - kind: 0
+      count: 1
+      ordered: 1
+      toStart: 0
+      minDist: 350
+      maxDist: 500
+      radius: 8
+      hold: 3
+      holdMaxSpeedKmh: 25
+      mover: 0
+      moverSpeedKmh: 45
+      nearDist: 6
+      farDist: 45
+      hits: 1
+      duration: 60
+      minKmh: 0
+      maxKmh: 0
+      requiredRank: 1
+      label: Tunnel Exit
+      altLabel: 
+  - chapter: 4
+    level: 4
+    title: Smuggler Route
+    story: The smugglers allow you on their secret route for a while.
+    objective: Follow the smuggler truck. Don't hit it and don't block it.
+    completeText: Smugglers trust you now!
+    altCompleteText: 
+    handBuilt: 0
+    area: 0
+    env: 0
+    maxCrashes: 0
+    maxStrikes: 3
+    speedLimitKmh: 0
+    noReverse: 0
+    timeFactor: 1
+    fixedTime: 0
+    reward: 4900
+    startFuel: 0
+    fuelDrainPerSecond: 0
+    hazard: 0
+    hazardCount: 0
+    props: 0
+    propCount: 0
+    steps:
+    - kind: 5
+      count: 1
+      ordered: 1
+      toStart: 0
+      minDist: 400
+      maxDist: 500
+      radius: 7
+      hold: 3
+      holdMaxSpeedKmh: 25
+      mover: 3
+      moverSpeedKmh: 35
+      nearDist: 8
+      farDist: 55
+      hits: 1
+      duration: 60
+      minKmh: 0
+      maxKmh: 0
+      requiredRank: 1
+      label: Smuggler Truck
+      altLabel: 
+  - chapter: 4
+    level: 5
+    title: Black Market Fuel
+    story: Legal fuel stations are closed. Only the black market is left.
+    objective: Find the hidden fuel tanker, stop precisely to refuel, then leave
+      quickly.
+    completeText: Tank full, nobody saw you!
+    altCompleteText: 
+    handBuilt: 0
+    area: 0
+    env: 0
+    maxCrashes: 1
+    maxStrikes: 3
+    speedLimitKmh: 0
+    noReverse: 0
+    timeFactor: 1
+    fixedTime: 0
+    reward: 5000
+    startFuel: 30
+    fuelDrainPerSecond: 0.15
+    hazard: 0
+    hazardCount: 0
+    props: 0
+    propCount: 0
+    steps:
+    - kind: 0
+      count: 1
+      ordered: 1
+      toStart: 0
+      minDist: 250
+      maxDist: 400
+      radius: 8
+      hold: 3
+      holdMaxSpeedKmh: 25
+      mover: 0
+      moverSpeedKmh: 45
+      nearDist: 6
+      farDist: 45
+      hits: 1
+      duration: 60
+      minKmh: 0
+      maxKmh: 0
+      requiredRank: 1
+      label: Hidden Tanker
+      altLabel: 
+    - kind: 4
+      count: 1
+      ordered: 1
+      toStart: 0
+      minDist: 20
+      maxDist: 40
+      radius: 3
+      hold: 4
+      holdMaxSpeedKmh: 3
+      mover: 0
+      moverSpeedKmh: 45
+      nearDist: 6
+      farDist: 45
+      hits: 1
+      duration: 60
+      minKmh: 0
+      maxKmh: 0
+      requiredRank: 1
+      label: Refuel Spot
+      altLabel: 
+    - kind: 0
+      count: 1
+      ordered: 1
+      toStart: 0
+      minDist: 150
+      maxDist: 250
+      radius: 8
+      hold: 3
+      holdMaxSpeedKmh: 25
+      mover: 0
+      moverSpeedKmh: 45
+      nearDist: 6
+      farDist: 45
+      hits: 1
+      duration: 60
+      minKmh: 0
+      maxKmh: 0
+      requiredRank: 1
+      label: Get Out
+      altLabel: 
+  - chapter: 4
+    level: 6
+    title: Street Gang Race
+    story: An underground street gang wants to race you.
+    objective: Race 3 gang cars over 2 laps and finish 2nd or better.
+    completeText: The gang respects you!
+    altCompleteText: 
+    handBuilt: 0
+    area: 0
+    env: 0
+    maxCrashes: 2
+    maxStrikes: 3
+    speedLimitKmh: 0
+    noReverse: 0
+    timeFactor: 1
+    fixedTime: 0
+    reward: 5100
+    startFuel: 0
+    fuelDrainPerSecond: 0
+    hazard: 0
+    hazardCount: 0
+    props: 0
+    propCount: 0
+    steps:
+    - kind: 10
+      count: 3
+      ordered: 1
+      toStart: 0
+      minDist: 90
+      maxDist: 170
+      radius: 10
+      hold: 3
+      holdMaxSpeedKmh: 25
+      mover: 0
+      moverSpeedKmh: 95
+      nearDist: 6
+      farDist: 45
+      hits: 2
+      duration: 6
+      minKmh: 0
+      maxKmh: 0
+      requiredRank: 2
+      label: Race
+      altLabel: 
+  - chapter: 4
+    level: 7
+    title: Secret Bridge Jump
+    story: An old broken bridge will be used for a stunt.
+    objective: Build speed, hit the ramp at 80 km/h or more and land in the safe
+      zone.
+    completeText: Perfect landing!
+    altCompleteText: 
+    handBuilt: 0
+    area: 0
+    env: 0
+    maxCrashes: 1
+    maxStrikes: 3
+    speedLimitKmh: 0
+    noReverse: 0
+    timeFactor: 1
+    fixedTime: 0
+    reward: 5200
+    startFuel: 0
+    fuelDrainPerSecond: 0
+    hazard: 0
+    hazardCount: 0
+    props: 0
+    propCount: 0
+    steps:
+    - kind: 15
+      count: 1
+      ordered: 1
+      toStart: 0
+      minDist: 120
+      maxDist: 320
+      radius: 7
+      hold: 3
+      holdMaxSpeedKmh: 25
+      mover: 0
+      moverSpeedKmh: 45
+      nearDist: 6
+      farDist: 45
+      hits: 1
+      duration: 60
+      minKmh: 80
+      maxKmh: 0
+      requiredRank: 1
+      label: Ramp
+      altLabel: 
+  - chapter: 4
+    level: 8
+    title: Storm Escape
+    story: Heavy rain and thunderstorm, low visibility.
+    objective: Complete the long curved route on wet roads without spinning out.
+    completeText: You escaped the storm!
+    altCompleteText: 
+    handBuilt: 0
+    area: 0
+    env: 3
+    maxCrashes: 1
+    maxStrikes: 3
+    speedLimitKmh: 0
+    noReverse: 0
+    timeFactor: 1
+    fixedTime: 0
+    reward: 5300
+    startFuel: 0
+    fuelDrainPerSecond: 0
+    hazard: 0
+    hazardCount: 0
+    props: 0
+    propCount: 0
+    steps:
+    - kind: 1
+      count: 6
+      ordered: 1
+      toStart: 0
+      minDist: 120
+      maxDist: 220
+      radius: 8
+      hold: 3
+      holdMaxSpeedKmh: 25
+      mover: 0
+      moverSpeedKmh: 45
+      nearDist: 6
+      farDist: 45
+      hits: 1
+      duration: 60
+      minKmh: 0
+      maxKmh: 0
+      requiredRank: 1
+      label: Checkpoint
+      altLabel: 
+  - chapter: 4
+    level: 9
+    title: Truck Escort
+    story: Escort an NPC supply truck to the industrial zone.
+    objective: Stay close to the truck and protect it from the road dangers until
+      it arrives.
+    completeText: Supplies delivered safely!
+    altCompleteText: 
+    handBuilt: 0
+    area: 0
+    env: 0
+    maxCrashes: 1
+    maxStrikes: 3
+    speedLimitKmh: 0
+    noReverse: 0
+    timeFactor: 1
+    fixedTime: 0
+    reward: 5400
+    startFuel: 0
+    fuelDrainPerSecond: 0
+    hazard: 6
+    hazardCount: 1
+    props: 0
+    propCount: 0
+    steps:
+    - kind: 7
+      count: 0
+      ordered: 1
+      toStart: 0
+      minDist: 500
+      maxDist: 700
+      radius: 7
+      hold: 3
+      holdMaxSpeedKmh: 25
+      mover: 3
+      moverSpeedKmh: 45
+      nearDist: 6
+      farDist: 40
+      hits: 1
+      duration: 60
+      minKmh: 0
+      maxKmh: 0
+      requiredRank: 1
+      label: Supply Truck
+      altLabel: 
+  - chapter: 5
+    level: 0
+    title: Sandstorm Run
+    story: A sandstorm suddenly hits the desert highway.
+    objective: Follow the reflective markers through low visibility and get out of
+      the storm zone.
+    completeText: Out of the sandstorm!
+    altCompleteText: 
+    handBuilt: 0
+    area: 1
+    env: 4
+    maxCrashes: 1
+    maxStrikes: 3
+    speedLimitKmh: 0
+    noReverse: 0
+    timeFactor: 1
+    fixedTime: 0
+    reward: 5000
+    startFuel: 0
+    fuelDrainPerSecond: 0
+    hazard: 0
+    hazardCount: 0
+    props: 0
+    propCount: 0
+    steps:
+    - kind: 0
+      count: 1
+      ordered: 1
+      toStart: 0
+      minDist: 500
+      maxDist: 750
+      radius: 8
+      hold: 3
+      holdMaxSpeedKmh: 25
+      mover: 0
+      moverSpeedKmh: 45
+      nearDist: 6
+      farDist: 45
+      hits: 1
+      duration: 60
+      minKmh: 0
+      maxKmh: 0
+      requiredRank: 1
+      label: Storm Exit
+      altLabel: 
+  - chapter: 5
+    level: 1
+    title: Desert Fuel Hunt
+    story: Desert fuel stations are very far apart.
+    objective: Follow the compass and reach the small station before the fuel runs
+      out.
+    completeText: Fuel found in the desert!
+    altCompleteText: 
+    handBuilt: 0
+    area: 1
+    env: 0
+    maxCrashes: 1
+    maxStrikes: 3
+    speedLimitKmh: 0
+    noReverse: 0
+    timeFactor: 1
+    fixedTime: 0
+    reward: 5100
+    startFuel: 30
+    fuelDrainPerSecond: 0.2
+    hazard: 0
+    hazardCount: 0
+    props: 0
+    propCount: 0
+    steps:
+    - kind: 0
+      count: 1
+      ordered: 1
+      toStart: 0
+      minDist: 500
+      maxDist: 750
+      radius: 8
+      hold: 3
+      holdMaxSpeedKmh: 25
+      mover: 0
+      moverSpeedKmh: 45
+      nearDist: 6
+      farDist: 45
+      hits: 1
+      duration: 60
+      minKmh: 0
+      maxKmh: 0
+      requiredRank: 1
+      label: Fuel Station
+      altLabel: 
+  - chapter: 5
+    level: 2
+    title: Desert Delivery
+    story: A remote desert camp needs emergency supplies.
+    objective: Follow the off-road GPS marks and reach the camp in time.
+    completeText: Supplies reached the camp!
+    altCompleteText: 
+    handBuilt: 0
+    area: 1
+    env: 0
+    maxCrashes: 1
+    maxStrikes: 3
+    speedLimitKmh: 0
+    noReverse: 0
+    timeFactor: 1
+    fixedTime: 0
+    reward: 5200
+    startFuel: 0
+    fuelDrainPerSecond: 0
+    hazard: 0
+    hazardCount: 0
+    props: 0
+    propCount: 0
+    steps:
+    - kind: 1
+      count: 4
+      ordered: 1
+      toStart: 0
+      minDist: 150
+      maxDist: 300
+      radius: 8
+      hold: 3
+      holdMaxSpeedKmh: 25
+      mover: 0
+      moverSpeedKmh: 45
+      nearDist: 6
+      farDist: 45
+      hits: 1
+      duration: 60
+      minKmh: 0
+      maxKmh: 0
+      requiredRank: 1
+      label: GPS Mark
+      altLabel: 
+    - kind: 0
+      count: 1
+      ordered: 1
+      toStart: 0
+      minDist: 150
+      maxDist: 300
+      radius: 8
+      hold: 3
+      holdMaxSpeedKmh: 25
+      mover: 0
+      moverSpeedKmh: 45
+      nearDist: 6
+      farDist: 45
+      hits: 1
+      duration: 60
+      minKmh: 0
+      maxKmh: 0
+      requiredRank: 1
+      label: Desert Camp
+      altLabel: 
+  - chapter: 5
+    level: 3
+    title: Drone War
+    story: Security drones are running test patrols in the desert.
+    objective: Zig-zag out of the drone radar cones and reach the mountain base.
+    completeText: Drones outsmarted!
+    altCompleteText: 
+    handBuilt: 0
+    area: 1
+    env: 0
+    maxCrashes: 1
+    maxStrikes: 3
+    speedLimitKmh: 0
+    noReverse: 0
+    timeFactor: 1
+    fixedTime: 0
+    reward: 5300
+    startFuel: 0
+    fuelDrainPerSecond: 0
+    hazard: 2
+    hazardCount: 3
+    props: 0
+    propCount: 0
+    steps:
+    - kind: 0
+      count: 1
+      ordered: 1
+      toStart: 0
+      minDist: 500
+      maxDist: 700
+      radius: 8
+      hold: 3
+      holdMaxSpeedKmh: 25
+      mover: 0
+      moverSpeedKmh: 45
+      nearDist: 6
+      farDist: 45
+      hits: 1
+      duration: 60
+      minKmh: 0
+      maxKmh: 0
+      requiredRank: 1
+      label: Mountain Base
+      altLabel: 
+  - chapter: 5
+    level: 4
+    title: Desert Camp Rescue
+    story: A friendly mechanic's truck is stuck in the desert.
+    objective: Find the truck, circle it to enable towing AI, then escort it to the
+      nearest road.
+    completeText: Mechanic rescued!
+    altCompleteText: 
+    handBuilt: 0
+    area: 1
+    env: 0
+    maxCrashes: 1
+    maxStrikes: 3
+    speedLimitKmh: 0
+    noReverse: 0
+    timeFactor: 1
+    fixedTime: 0
+    reward: 5400
+    startFuel: 0
+    fuelDrainPerSecond: 0
+    hazard: 0
+    hazardCount: 0
+    props: 0
+    propCount: 0
+    steps:
+    - kind: 0
+      count: 1
+      ordered: 1
+      toStart: 0
+      minDist: 250
+      maxDist: 400
+      radius: 8
+      hold: 3
+      holdMaxSpeedKmh: 25
+      mover: 0
+      moverSpeedKmh: 45
+      nearDist: 6
+      farDist: 45
+      hits: 1
+      duration: 60
+      minKmh: 0
+      maxKmh: 0
+      requiredRank: 1
+      label: Stuck Truck
+      altLabel: 
+    - kind: 4
+      count: 1
+      ordered: 1
+      toStart: 0
+      minDist: 10
+      maxDist: 30
+      radius: 14
+      hold: 5
+      holdMaxSpeedKmh: 0
+      mover: 0
+      moverSpeedKmh: 45
+      nearDist: 6
+      farDist: 45
+      hits: 1
+      duration: 60
+      minKmh: 8
+      maxKmh: 0
+      requiredRank: 1
+      label: Tow Link
+      altLabel: 
+    - kind: 8
+      count: 1
+      ordered: 1
+      toStart: 0
+      minDist: 250
+      maxDist: 400
+      radius: 9
+      hold: 3
+      holdMaxSpeedKmh: 25
+      mover: 0
+      moverSpeedKmh: 45
+      nearDist: 6
+      farDist: 45
+      hits: 1
+      duration: 60
+      minKmh: 0
+      maxKmh: 50
+      requiredRank: 1
+      label: Nearest Road
+      altLabel: 
+  - chapter: 5
+    level: 5
+    title: Highway Ramp Jump
+    story: An under-construction ramp on the desert highway.
+    objective: Hit the ramp at 95 km/h or more and land perfectly in the marked lane.
+    completeText: Cinematic jump!
+    altCompleteText: 
+    handBuilt: 0
+    area: 3
+    env: 0
+    maxCrashes: 1
+    maxStrikes: 3
+    speedLimitKmh: 0
+    noReverse: 0
+    timeFactor: 1
+    fixedTime: 0
+    reward: 5500
+    startFuel: 0
+    fuelDrainPerSecond: 0
+    hazard: 0
+    hazardCount: 0
+    props: 0
+    propCount: 0
+    steps:
+    - kind: 15
+      count: 1
+      ordered: 1
+      toStart: 0
+      minDist: 120
+      maxDist: 320
+      radius: 7
+      hold: 3
+      holdMaxSpeedKmh: 25
+      mover: 0
+      moverSpeedKmh: 45
+      nearDist: 6
+      farDist: 45
+      hits: 1
+      duration: 60
+      minKmh: 95
+      maxKmh: 0
+      requiredRank: 1
+      label: Ramp
+      altLabel: 
+  - chapter: 5
+    level: 6
+    title: Burnout Test
+    story: The gang wants to test your tyre grip.
+    objective: Keep drifting inside the burnout circle above 20 km/h until the meter
+      is full.
+    completeText: Burnout master!
+    altCompleteText: 
+    handBuilt: 0
+    area: 1
+    env: 0
+    maxCrashes: 1
+    maxStrikes: 3
+    speedLimitKmh: 0
+    noReverse: 0
+    timeFactor: 1
+    fixedTime: 0
+    reward: 5600
+    startFuel: 0
+    fuelDrainPerSecond: 0
+    hazard: 0
+    hazardCount: 0
+    props: 0
+    propCount: 0
+    steps:
+    - kind: 4
+      count: 1
+      ordered: 1
+      toStart: 0
+      minDist: 60
+      maxDist: 150
+      radius: 15
+      hold: 18
+      holdMaxSpeedKmh: 0
+      mover: 0
+      moverSpeedKmh: 45
+      nearDist: 6
+      farDist: 45
+      hits: 1
+      duration: 60
+      minKmh: 20
+      maxKmh: 0
+      requiredRank: 1
+      label: Burnout Circle
+      altLabel: 
+  - chapter: 5
+    level: 7
+    title: Turbo Upgrade
+    story: Install a turbo module at the desert outpost.
+    objective: Reach the outpost, clear the obstacle course and park in the upgrade
+      bay.
+    completeText: Turbo unlocked!
+    altCompleteText: 
+    handBuilt: 0
+    area: 1
+    env: 0
+    maxCrashes: 2
+    maxStrikes: 3
+    speedLimitKmh: 0
+    noReverse: 0
+    timeFactor: 1
+    fixedTime: 0
+    reward: 5700
+    startFuel: 0
+    fuelDrainPerSecond: 0
+    hazard: 0
+    hazardCount: 0
+    props: 2
+    propCount: 20
+    steps:
+    - kind: 0
+      count: 1
+      ordered: 1
+      toStart: 0
+      minDist: 300
+      maxDist: 450
+      radius: 8
+      hold: 3
+      holdMaxSpeedKmh: 25
+      mover: 0
+      moverSpeedKmh: 45
+      nearDist: 6
+      farDist: 45
+      hits: 1
+      duration: 60
+      minKmh: 0
+      maxKmh: 0
+      requiredRank: 1
+      label: Outpost
+      altLabel: 
+    - kind: 4
+      count: 1
+      ordered: 1
+      toStart: 0
+      minDist: 40
+      maxDist: 80
+      radius: 3
+      hold: 2
+      holdMaxSpeedKmh: 4
+      mover: 0
+      moverSpeedKmh: 45
+      nearDist: 6
+      farDist: 45
+      hits: 1
+      duration: 60
+      minKmh: 0
+      maxKmh: 0
+      requiredRank: 1
+      label: Upgrade Bay
+      altLabel: 
+  - chapter: 5
+    level: 8
+    title: Midnight Race
+    story: Illegal midnight desert race.
+    objective: Complete the 2-lap race and finish in the top 3.
+    completeText: Top 3 finish!
+    altCompleteText: 
+    handBuilt: 0
+    area: 1
+    env: 2
+    maxCrashes: 2
+    maxStrikes: 3
+    speedLimitKmh: 0
+    noReverse: 0
+    timeFactor: 1
+    fixedTime: 0
+    reward: 5800
+    startFuel: 0
+    fuelDrainPerSecond: 0
+    hazard: 0
+    hazardCount: 0
+    props: 0
+    propCount: 0
+    steps:
+    - kind: 10
+      count: 4
+      ordered: 1
+      toStart: 0
+      minDist: 90
+      maxDist: 170
+      radius: 10
+      hold: 3
+      holdMaxSpeedKmh: 25
+      mover: 0
+      moverSpeedKmh: 100
+      nearDist: 6
+      farDist: 45
+      hits: 2
+      duration: 7
+      minKmh: 0
+      maxKmh: 0
+      requiredRank: 3
+      label: Race
+      altLabel: 
+  - chapter: 5
+    level: 9
+    title: Off-Road Cliff
+    story: A dangerous mountain road along the cliff edge.
+    objective: Drive slowly through the tight turns and reach the hill-top marker.
+    completeText: Hill-top reached!
+    altCompleteText: 
+    handBuilt: 0
+    area: 2
+    env: 0
+    maxCrashes: 2
+    maxStrikes: 3
+    speedLimitKmh: 70
+    noReverse: 0
+    timeFactor: 1
+    fixedTime: 0
+    reward: 5900
+    startFuel: 0
+    fuelDrainPerSecond: 0
+    hazard: 0
+    hazardCount: 0
+    props: 0
+    propCount: 0
+    steps:
+    - kind: 1
+      count: 6
+      ordered: 1
+      toStart: 0
+      minDist: 100
+      maxDist: 180
+      radius: 8
+      hold: 3
+      holdMaxSpeedKmh: 25
+      mover: 0
+      moverSpeedKmh: 45
+      nearDist: 6
+      farDist: 45
+      hits: 1
+      duration: 60
+      minKmh: 0
+      maxKmh: 0
+      requiredRank: 1
+      label: Cliff Turn
+      altLabel: 
+  - chapter: 6
+    level: 0
+    title: City Return
+    story: Back from the desert, the city security is tight.
+    objective: Avoid the scan points and use the service roads to enter the city.
+    completeText: You are back in the city!
+    altCompleteText: 
+    handBuilt: 0
+    area: 0
+    env: 0
+    maxCrashes: 1
+    maxStrikes: 3
+    speedLimitKmh: 0
+    noReverse: 0
+    timeFactor: 1
+    fixedTime: 0
+    reward: 5500
+    startFuel: 0
+    fuelDrainPerSecond: 0
+    hazard: 1
+    hazardCount: 5
+    props: 0
+    propCount: 0
+    steps:
+    - kind: 0
+      count: 1
+      ordered: 1
+      toStart: 0
+      minDist: 500
+      maxDist: 700
+      radius: 8
+      hold: 3
+      holdMaxSpeedKmh: 25
+      mover: 0
+      moverSpeedKmh: 45
+      nearDist: 6
+      farDist: 45
+      hits: 1
+      duration: 60
+      minKmh: 0
+      maxKmh: 0
+      requiredRank: 1
+      label: City Entry
+      altLabel: 
+  - chapter: 6
+    level: 1
+    title: Road Block Break
+    story: A barricade blocks a main city entrance.
+    objective: Smash through the barricade at full speed, regain control and stay
+      on the road.
+    completeText: Barricade destroyed!
+    altCompleteText: 
+    handBuilt: 0
+    area: 0
+    env: 0
+    maxCrashes: 2
+    maxStrikes: 3
+    speedLimitKmh: 0
+    noReverse: 0
+    timeFactor: 1
+    fixedTime: 0
+    reward: 5600
+    startFuel: 0
+    fuelDrainPerSecond: 0
+    hazard: 0
+    hazardCount: 0
+    props: 6
+    propCount: 1
+    steps:
+    - kind: 0
+      count: 1
+      ordered: 1
+      toStart: 0
+      minDist: 250
+      maxDist: 400
+      radius: 8
+      hold: 3
+      holdMaxSpeedKmh: 25
+      mover: 0
+      moverSpeedKmh: 45
+      nearDist: 6
+      farDist: 45
+      hits: 1
+      duration: 60
+      minKmh: 0
+      maxKmh: 0
+      requiredRank: 1
+      label: Through the Block
+      altLabel: 
+  - chapter: 6
+    level: 2
+    title: Silent Route
+    story: Stealth drive in a residential area.
+    objective: Drive slowly through the narrow area, keep clear of pedestrians and
+      parked cars.
+    completeText: Nobody noticed you!
+    altCompleteText: 
+    handBuilt: 0
+    area: 0
+    env: 0
+    maxCrashes: 0
+    maxStrikes: 3
+    speedLimitKmh: 35
+    noReverse: 0
+    timeFactor: 1
+    fixedTime: 0
+    reward: 5700
+    startFuel: 0
+    fuelDrainPerSecond: 0
+    hazard: 0
+    hazardCount: 0
+    props: 3
+    propCount: 10
+    steps:
+    - kind: 0
+      count: 1
+      ordered: 1
+      toStart: 0
+      minDist: 400
+      maxDist: 600
+      radius: 8
+      hold: 3
+      holdMaxSpeedKmh: 25
+      mover: 0
+      moverSpeedKmh: 45
+      nearDist: 6
+      farDist: 45
+      hits: 1
+      duration: 60
+      minKmh: 0
+      maxKmh: 0
+      requiredRank: 1
+      label: Exit Street
+      altLabel: 
+  - chapter: 6
+    level: 3
+    title: Hospital Run
+    story: Emergency medical supplies for the hospital.
+    objective: Choose the safest fastest path and reach the hospital. The time limit
+      is strict.
+    completeText: Supplies delivered, lives saved!
+    altCompleteText: 
+    handBuilt: 0
+    area: 0
+    env: 0
+    maxCrashes: 1
+    maxStrikes: 3
+    speedLimitKmh: 0
+    noReverse: 0
+    timeFactor: 0.75
+    fixedTime: 0
+    reward: 5800
+    startFuel: 0
+    fuelDrainPerSecond: 0
+    hazard: 0
+    hazardCount: 0
+    props: 0
+    propCount: 0
+    steps:
+    - kind: 0
+      count: 1
+      ordered: 1
+      toStart: 0
+      minDist: 600
+      maxDist: 850
+      radius: 8
+      hold: 3
+      holdMaxSpeedKmh: 25
+      mover: 0
+      moverSpeedKmh: 45
+      nearDist: 6
+      farDist: 45
+      hits: 1
+      duration: 60
+      minKmh: 0
+      maxKmh: 0
+      requiredRank: 1
+      label: Hospital
+      altLabel: 
+  - chapter: 6
+    level: 4
+    title: AI Car Rescue
+    story: A friendly AI car is glitching and braking randomly.
+    objective: Escort the glitching car along its route and avoid any collision.
+    completeText: AI car repaired!
+    altCompleteText: 
+    handBuilt: 0
+    area: 0
+    env: 0
+    maxCrashes: 0
+    maxStrikes: 3
+    speedLimitKmh: 0
+    noReverse: 0
+    timeFactor: 1
+    fixedTime: 0
+    reward: 5900
+    startFuel: 0
+    fuelDrainPerSecond: 0
+    hazard: 0
+    hazardCount: 0
+    props: 0
+    propCount: 0
+    steps:
+    - kind: 7
+      count: 0
+      ordered: 1
+      toStart: 0
+      minDist: 400
+      maxDist: 550
+      radius: 7
+      hold: 3
+      holdMaxSpeedKmh: 25
+      mover: 0
+      moverSpeedKmh: 35
+      nearDist: 6
+      farDist: 35
+      hits: 1
+      duration: 60
+      minKmh: 0
+      maxKmh: 0
+      requiredRank: 1
+      label: Glitched Car
+      altLabel: 
+  - chapter: 6
+    level: 5
+    title: Tunnel Bridge Run
+    story: A combined bridge and tunnel route.
+    objective: Keep your speed over the bridge, brake for the tunnel entry and cross
+      without hitting walls.
+    completeText: Bridge and tunnel cleared!
+    altCompleteText: 
+    handBuilt: 0
+    area: 0
+    env: 0
+    maxCrashes: 0
+    maxStrikes: 3
+    speedLimitKmh: 0
+    noReverse: 0
+    timeFactor: 0.8
+    fixedTime: 0
+    reward: 6000
+    startFuel: 0
+    fuelDrainPerSecond: 0
+    hazard: 0
+    hazardCount: 0
+    props: 0
+    propCount: 0
+    steps:
+    - kind: 1
+      count: 4
+      ordered: 1
+      toStart: 0
+      minDist: 150
+      maxDist: 250
+      radius: 8
+      hold: 3
+      holdMaxSpeedKmh: 25
+      mover: 0
+      moverSpeedKmh: 45
+      nearDist: 6
+      farDist: 45
+      hits: 1
+      duration: 60
+      minKmh: 0
+      maxKmh: 0
+      requiredRank: 1
+      label: Checkpoint
+      altLabel: 
+  - chapter: 6
+    level: 6
+    title: Battery Plant Hack
+    story: Get free charging from the city battery plant.
+    objective: Pass the 3 internal checkpoints, pause at each to hack, then exit
+      through the gate.
+    completeText: Battery plant hacked!
+    altCompleteText: 
+    handBuilt: 0
+    area: 0
+    env: 0
+    maxCrashes: 1
+    maxStrikes: 3
+    speedLimitKmh: 0
+    noReverse: 0
+    timeFactor: 1
+    fixedTime: 0
+    reward: 6100
+    startFuel: 0
+    fuelDrainPerSecond: 0
+    hazard: 0
+    hazardCount: 0
+    props: 0
+    propCount: 0
+    steps:
+    - kind: 4
+      count: 3
+      ordered: 1
+      toStart: 0
+      minDist: 60
+      maxDist: 140
+      radius: 6
+      hold: 3
+      holdMaxSpeedKmh: 15
+      mover: 0
+      moverSpeedKmh: 45
+      nearDist: 6
+      farDist: 45
+      hits: 1
+      duration: 60
+      minKmh: 0
+      maxKmh: 0
+      requiredRank: 1
+      label: Hack Point
+      altLabel: 
+    - kind: 0
+      count: 1
+      ordered: 1
+      toStart: 0
+      minDist: 100
+      maxDist: 200
+      radius: 8
+      hold: 3
+      holdMaxSpeedKmh: 25
+      mover: 0
+      moverSpeedKmh: 45
+      nearDist: 6
+      farDist: 45
+      hits: 1
+      duration: 60
+      minKmh: 0
+      maxKmh: 0
+      requiredRank: 1
+      label: Exit Gate
+      altLabel: 
+  - chapter: 6
+    level: 7
+    title: Police Drone Swarm
+    story: Multiple drones patrol the city centre.
+    objective: Avoid the drone spotlight cones and complete 5 urban checkpoints.
+    completeText: Swarm evaded!
+    altCompleteText: 
+    handBuilt: 0
+    area: 0
+    env: 0
+    maxCrashes: 1
+    maxStrikes: 3
+    speedLimitKmh: 0
+    noReverse: 0
+    timeFactor: 1
+    fixedTime: 0
+    reward: 6200
+    startFuel: 0
+    fuelDrainPerSecond: 0
+    hazard: 2
+    hazardCount: 5
+    props: 0
+    propCount: 0
+    steps:
+    - kind: 1
+      count: 5
+      ordered: 0
+      toStart: 0
+      minDist: 150
+      maxDist: 300
+      radius: 8
+      hold: 3
+      holdMaxSpeedKmh: 25
+      mover: 0
+      moverSpeedKmh: 45
+      nearDist: 6
+      farDist: 45
+      hits: 1
+      duration: 60
+      minKmh: 0
+      maxKmh: 0
+      requiredRank: 1
+      label: Checkpoint
+      altLabel: 
+  - chapter: 6
+    level: 8
+    title: Secret Base Entry
+    story: The hacker's hidden base is inside the city.
+    objective: Take the right turns through the alley maze and reach the hidden entrance.
+    completeText: Welcome to the base!
+    altCompleteText: 
+    handBuilt: 0
+    area: 0
+    env: 1
+    maxCrashes: 1
+    maxStrikes: 3
+    speedLimitKmh: 0
+    noReverse: 0
+    timeFactor: 0.85
+    fixedTime: 0
+    reward: 6300
+    startFuel: 0
+    fuelDrainPerSecond: 0
+    hazard: 0
+    hazardCount: 0
+    props: 0
+    propCount: 0
+    steps:
+    - kind: 0
+      count: 1
+      ordered: 1
+      toStart: 0
+      minDist: 500
+      maxDist: 700
+      radius: 8
+      hold: 3
+      holdMaxSpeedKmh: 25
+      mover: 0
+      moverSpeedKmh: 45
+      nearDist: 6
+      farDist: 45
+      hits: 1
+      duration: 60
+      minKmh: 0
+      maxKmh: 0
+      requiredRank: 1
+      label: Hidden Entrance
+      altLabel: 
+  - chapter: 6
+    level: 9
+    title: Save the Civilians
+    story: A bus is stuck in a protest area.
+    objective: Escort the bus to the exit, avoiding police barriers.
+    completeText: Civilians are safe!
+    altCompleteText: 
+    handBuilt: 0
+    area: 0
+    env: 0
+    maxCrashes: 1
+    maxStrikes: 3
+    speedLimitKmh: 0
+    noReverse: 0
+    timeFactor: 1
+    fixedTime: 0
+    reward: 6400
+    startFuel: 0
+    fuelDrainPerSecond: 0
+    hazard: 1
+    hazardCount: 3
+    props: 0
+    propCount: 0
+    steps:
+    - kind: 7
+      count: 0
+      ordered: 1
+      toStart: 0
+      minDist: 450
+      maxDist: 600
+      radius: 7
+      hold: 3
+      holdMaxSpeedKmh: 25
+      mover: 4
+      moverSpeedKmh: 35
+      nearDist: 6
+      farDist: 35
+      hits: 1
+      duration: 60
+      minKmh: 0
+      maxKmh: 0
+      requiredRank: 1
+      label: Bus
+      altLabel: 
+  - chapter: 7
+    level: 0
+    title: Spy Cars Hunt
+    story: CORE AI sent its spy cars.
+    objective: Chase the 3 spy cars and bump each one to disable it. Don't damage
+      civilians.
+    completeText: Spy cars disabled!
+    altCompleteText: 
+    handBuilt: 0
+    area: 0
+    env: 0
+    maxCrashes: 3
+    maxStrikes: 3
+    speedLimitKmh: 0
+    noReverse: 0
+    timeFactor: 1
+    fixedTime: 0
+    reward: 6000
+    startFuel: 0
+    fuelDrainPerSecond: 0
+    hazard: 0
+    hazardCount: 0
+    props: 0
+    propCount: 0
+    steps:
+    - kind: 14
+      count: 3
+      ordered: 1
+      toStart: 0
+      minDist: 120
+      maxDist: 260
+      radius: 7
+      hold: 3
+      holdMaxSpeedKmh: 25
+      mover: 0
+      moverSpeedKmh: 55
+      nearDist: 6
+      farDist: 45
+      hits: 1
+      duration: 60
+      minKmh: 0
+      maxKmh: 0
+      requiredRank: 1
+      label: Spy Car
+      altLabel: 
+  - chapter: 7
+    level: 1
+    title: Bridge Collapse
+    story: The enemy blew up the bridge.
+    objective: Drive across while sections fall, avoid the debris and reach the stable
+      exit.
+    completeText: You made it across!
+    altCompleteText: 
+    handBuilt: 0
+    area: 0
+    env: 0
+    maxCrashes: 1
+    maxStrikes: 3
+    speedLimitKmh: 0
+    noReverse: 0
+    timeFactor: 0.8
+    fixedTime: 0
+    reward: 6100
+    startFuel: 0
+    fuelDrainPerSecond: 0
+    hazard: 6
+    hazardCount: 2
+    props: 0
+    propCount: 0
+    steps:
+    - kind: 0
+      count: 1
+      ordered: 1
+      toStart: 0
+      minDist: 400
+      maxDist: 550
+      radius: 8
+      hold: 3
+      holdMaxSpeedKmh: 25
+      mover: 0
+      moverSpeedKmh: 45
+      nearDist: 6
+      farDist: 45
+      hits: 1
+      duration: 60
+      minKmh: 0
+      maxKmh: 0
+      requiredRank: 1
+      label: Stable Exit
+      altLabel: 
+  - chapter: 7
+    level: 2
+    title: EMP Trap
+    story: EMP pylons are placed on the roads.
+    objective: Avoid the EMP circles and reach the objective. Staying inside disables
+      your systems.
+    completeText: EMP trap avoided!
+    altCompleteText: 
+    handBuilt: 0
+    area: 0
+    env: 0
+    maxCrashes: 1
+    maxStrikes: 3
+    speedLimitKmh: 0
+    noReverse: 0
+    timeFactor: 1
+    fixedTime: 0
+    reward: 6200
+    startFuel: 0
+    fuelDrainPerSecond: 0
+    hazard: 4
+    hazardCount: 6
+    props: 0
+    propCount: 0
+    steps:
+    - kind: 0
+      count: 1
+      ordered: 1
+      toStart: 0
+      minDist: 500
+      maxDist: 700
+      radius: 8
+      hold: 3
+      holdMaxSpeedKmh: 25
+      mover: 0
+      moverSpeedKmh: 45
+      nearDist: 6
+      farDist: 45
+      hits: 1
+      duration: 60
+      minKmh: 0
+      maxKmh: 0
+      requiredRank: 1
+      label: Objective
+      altLabel: 
+  - chapter: 7
+    level: 3
+    title: Helicopter Chase
+    story: A helicopter is tracking you with its spotlight.
+    objective: Use underpasses and building cover to stay out of the spotlight and
+      reach the escape zone.
+    completeText: Helicopter lost you!
+    altCompleteText: 
+    handBuilt: 0
+    area: 0
+    env: 0
+    maxCrashes: 1
+    maxStrikes: 4
+    speedLimitKmh: 0
+    noReverse: 0
+    timeFactor: 1
+    fixedTime: 0
+    reward: 6300
+    startFuel: 0
+    fuelDrainPerSecond: 0
+    hazard: 3
+    hazardCount: 1
+    props: 0
+    propCount: 0
+    steps:
+    - kind: 0
+      count: 1
+      ordered: 1
+      toStart: 0
+      minDist: 600
+      maxDist: 800
+      radius: 8
+      hold: 3
+      holdMaxSpeedKmh: 25
+      mover: 0
+      moverSpeedKmh: 45
+      nearDist: 6
+      farDist: 45
+      hits: 1
+      duration: 60
+      minKmh: 0
+      maxKmh: 0
+      requiredRank: 1
+      label: Escape Zone
+      altLabel: 
+  - chapter: 7
+    level: 4
+    title: AI Tower Raid
+    story: An AI control tower stands beside the highway.
+    objective: Pass the 4 road nodes above 60 km/h to inject the virus, then leave
+      the site.
+    completeText: Virus injected!
+    altCompleteText: 
+    handBuilt: 0
+    area: 0
+    env: 0
+    maxCrashes: 1
+    maxStrikes: 3
+    speedLimitKmh: 0
+    noReverse: 0
+    timeFactor: 1
+    fixedTime: 0
+    reward: 6400
+    startFuel: 0
+    fuelDrainPerSecond: 0
+    hazard: 0
+    hazardCount: 0
+    props: 0
+    propCount: 0
+    steps:
+    - kind: 1
+      count: 4
+      ordered: 0
+      toStart: 0
+      minDist: 80
+      maxDist: 160
+      radius: 8
+      hold: 3
+      holdMaxSpeedKmh: 25
+      mover: 0
+      moverSpeedKmh: 45
+      nearDist: 6
+      farDist: 45
+      hits: 1
+      duration: 60
+      minKmh: 60
+      maxKmh: 0
+      requiredRank: 1
+      label: Road Node
+      altLabel: 
+    - kind: 0
+      count: 1
+      ordered: 1
+      toStart: 0
+      minDist: 250
+      maxDist: 400
+      radius: 8
+      hold: 3
+      holdMaxSpeedKmh: 25
+      mover: 0
+      moverSpeedKmh: 45
+      nearDist: 6
+      farDist: 45
+      hits: 1
+      duration: 60
+      minKmh: 0
+      maxKmh: 0
+      requiredRank: 1
+      label: Leave Site
+      altLabel: 
+  - chapter: 7
+    level: 5
+    title: Drone Factory Smash
+    story: The drone factory routes run through the city.
+    objective: Brake hard at the 3 crate points to drop the crates and halt the factory.
+    completeText: Factory halted!
+    altCompleteText: 
+    handBuilt: 0
+    area: 0
+    env: 0
+    maxCrashes: 1
+    maxStrikes: 3
+    speedLimitKmh: 0
+    noReverse: 0
+    timeFactor: 1
+    fixedTime: 0
+    reward: 6500
+    startFuel: 0
+    fuelDrainPerSecond: 0
+    hazard: 2
+    hazardCount: 2
+    props: 0
+    propCount: 0
+    steps:
+    - kind: 4
+      count: 3
+      ordered: 1
+      toStart: 0
+      minDist: 100
+      maxDist: 200
+      radius: 6
+      hold: 1.5
+      holdMaxSpeedKmh: 10
+      mover: 0
+      moverSpeedKmh: 45
+      nearDist: 6
+      farDist: 45
+      hits: 1
+      duration: 60
+      minKmh: 0
+      maxKmh: 0
+      requiredRank: 1
+      label: Crate Point
+      altLabel: 
+  - chapter: 7
+    level: 6
+    title: Protect the Bus
+    story: Enemies are targeting the school bus.
+    objective: Escort the bus to school. Block or push away the attacker cars before
+      they reach it.
+    completeText: The kids are safe!
+    altCompleteText: 
+    handBuilt: 0
+    area: 0
+    env: 0
+    maxCrashes: 4
+    maxStrikes: 3
+    speedLimitKmh: 0
+    noReverse: 0
+    timeFactor: 1
+    fixedTime: 0
+    reward: 6600
+    startFuel: 0
+    fuelDrainPerSecond: 0
+    hazard: 0
+    hazardCount: 0
+    props: 0
+    propCount: 0
+    steps:
+    - kind: 7
+      count: 2
+      ordered: 1
+      toStart: 0
+      minDist: 550
+      maxDist: 750
+      radius: 7
+      hold: 3
+      holdMaxSpeedKmh: 25
+      mover: 4
+      moverSpeedKmh: 40
+      nearDist: 6
+      farDist: 45
+      hits: 1
+      duration: 60
+      minKmh: 0
+      maxKmh: 0
+      requiredRank: 1
+      label: School Bus
+      altLabel: 
+  - chapter: 7
+    level: 7
+    title: Airport Escape
+    story: Blend into the airport road without being detected.
+    objective: Drive on the service road, avoid security vehicles and spotlights
+      and reach the hangar.
+    completeText: Hangar reached undetected!
+    altCompleteText: 
+    handBuilt: 0
+    area: 0
+    env: 0
+    maxCrashes: 0
+    maxStrikes: 3
+    speedLimitKmh: 0
+    noReverse: 0
+    timeFactor: 1
+    fixedTime: 0
+    reward: 6700
+    startFuel: 0
+    fuelDrainPerSecond: 0
+    hazard: 2
+    hazardCount: 3
+    props: 5
+    propCount: 3
+    steps:
+    - kind: 0
+      count: 1
+      ordered: 1
+      toStart: 0
+      minDist: 600
+      maxDist: 800
+      radius: 8
+      hold: 3
+      holdMaxSpeedKmh: 25
+      mover: 0
+      moverSpeedKmh: 45
+      nearDist: 6
+      farDist: 45
+      hits: 1
+      duration: 60
+      minKmh: 0
+      maxKmh: 0
+      requiredRank: 1
+      label: Hangar
+      altLabel: 
+  - chapter: 7
+    level: 8
+    title: Boss Truck Attack
+    story: A big armored boss truck blocks your way.
+    objective: Damage the boss truck with 3 high-speed hits.
+    completeText: Boss truck destroyed!
+    altCompleteText: 
+    handBuilt: 0
+    area: 0
+    env: 0
+    maxCrashes: 4
+    maxStrikes: 3
+    speedLimitKmh: 0
+    noReverse: 0
+    timeFactor: 1
+    fixedTime: 0
+    reward: 6800
+    startFuel: 0
+    fuelDrainPerSecond: 0
+    hazard: 0
+    hazardCount: 0
+    props: 0
+    propCount: 0
+    steps:
+    - kind: 14
+      count: 1
+      ordered: 1
+      toStart: 0
+      minDist: 120
+      maxDist: 260
+      radius: 7
+      hold: 3
+      holdMaxSpeedKmh: 25
+      mover: 7
+      moverSpeedKmh: 50
+      nearDist: 6
+      farDist: 45
+      hits: 3
+      duration: 60
+      minKmh: 0
+      maxKmh: 0
+      requiredRank: 1
+      label: Boss Truck
+      altLabel: 
+  - chapter: 7
+    level: 9
+    title: City Blackout
+    story: The whole city is in blackout, only emergency lights.
+    objective: Use your headlights and reach the emergency generator building.
+    completeText: Power restored!
+    altCompleteText: 
+    handBuilt: 0
+    area: 0
+    env: 5
+    maxCrashes: 1
+    maxStrikes: 3
+    speedLimitKmh: 0
+    noReverse: 0
+    timeFactor: 1
+    fixedTime: 0
+    reward: 6900
+    startFuel: 0
+    fuelDrainPerSecond: 0
+    hazard: 0
+    hazardCount: 0
+    props: 0
+    propCount: 0
+    steps:
+    - kind: 0
+      count: 1
+      ordered: 1
+      toStart: 0
+      minDist: 500
+      maxDist: 700
+      radius: 8
+      hold: 3
+      holdMaxSpeedKmh: 25
+      mover: 0
+      moverSpeedKmh: 45
+      nearDist: 6
+      farDist: 45
+      hits: 1
+      duration: 60
+      minKmh: 0
+      maxKmh: 0
+      requiredRank: 1
+      label: Generator
+      altLabel: 
+  - chapter: 8
+    level: 0
+    title: Main Tower Hack
+    story: Reach the CORE AI main tower.
+    objective: Complete 5 security loops with a short hack each, then park in front
+      of the tower entrance.
+    completeText: Tower defences down!
+    altCompleteText: 
+    handBuilt: 0
+    area: 0
+    env: 0
+    maxCrashes: 1
+    maxStrikes: 3
+    speedLimitKmh: 0
+    noReverse: 0
+    timeFactor: 1
+    fixedTime: 0
+    reward: 6500
+    startFuel: 0
+    fuelDrainPerSecond: 0
+    hazard: 0
+    hazardCount: 0
+    props: 0
+    propCount: 0
+    steps:
+    - kind: 4
+      count: 5
+      ordered: 1
+      toStart: 0
+      minDist: 100
+      maxDist: 200
+      radius: 7
+      hold: 2.5
+      holdMaxSpeedKmh: 15
+      mover: 0
+      moverSpeedKmh: 45
+      nearDist: 6
+      farDist: 45
+      hits: 1
+      duration: 60
+      minKmh: 0
+      maxKmh: 0
+      requiredRank: 1
+      label: Security Loop
+      altLabel: 
+    - kind: 4
+      count: 1
+      ordered: 1
+      toStart: 0
+      minDist: 40
+      maxDist: 80
+      radius: 3
+      hold: 2
+      holdMaxSpeedKmh: 4
+      mover: 0
+      moverSpeedKmh: 45
+      nearDist: 6
+      farDist: 45
+      hits: 1
+      duration: 60
+      minKmh: 0
+      maxKmh: 0
+      requiredRank: 1
+      label: Tower Entrance
+      altLabel: 
+  - chapter: 8
+    level: 1
+    title: Core Van Chase
+    story: A heavily protected van is carrying core data.
+    objective: Drive close beside the van until the hacking bar is full. Don't hit
+      it.
+    completeText: Core data hacked!
+    altCompleteText: 
+    handBuilt: 0
+    area: 0
+    env: 0
+    maxCrashes: 0
+    maxStrikes: 3
+    speedLimitKmh: 0
+    noReverse: 0
+    timeFactor: 1
+    fixedTime: 0
+    reward: 6600
+    startFuel: 0
+    fuelDrainPerSecond: 0
+    hazard: 0
+    hazardCount: 0
+    props: 0
+    propCount: 0
+    steps:
+    - kind: 6
+      count: 1
+      ordered: 1
+      toStart: 0
+      minDist: 250
+      maxDist: 450
+      radius: 7
+      hold: 3
+      holdMaxSpeedKmh: 25
+      mover: 7
+      moverSpeedKmh: 55
+      nearDist: 2.5
+      farDist: 9
+      hits: 1
+      duration: 6
+      minKmh: 0
+      maxKmh: 0
+      requiredRank: 1
+      label: Core Van
+      altLabel: 
+  - chapter: 8
+    level: 2
+    title: Rocket Car Attack
+    story: Rocket-equipped enemy cars are locked on you.
+    objective: Zig-zag and change lanes to dodge the rockets and survive the attack.
+    completeText: Rocket squad defeated!
+    altCompleteText: 
+    handBuilt: 0
+    area: 0
+    env: 0
+    maxCrashes: 2
+    maxStrikes: 3
+    speedLimitKmh: 0
+    noReverse: 0
+    timeFactor: 1
+    fixedTime: 0
+    reward: 6700
+    startFuel: 0
+    fuelDrainPerSecond: 0
+    hazard: 7
+    hazardCount: 1
+    props: 0
+    propCount: 0
+    steps:
+    - kind: 9
+      count: 3
+      ordered: 1
+      toStart: 0
+      minDist: 0
+      maxDist: 0
+      radius: 10
+      hold: 3
+      holdMaxSpeedKmh: 25
+      mover: 5
+      moverSpeedKmh: 95
+      nearDist: 6
+      farDist: 45
+      hits: 1
+      duration: 75
+      minKmh: 0
+      maxKmh: 0
+      requiredRank: 1
+      label: Safe Zone
+      altLabel: 
+  - chapter: 8
+    level: 3
+    title: Final Highway Rage
+    story: Full chaos on the highway, everyone is panicking.
+    objective: Finish the long highway stretch at speed with only the lane switches
+      you need.
+    completeText: Highway survived!
+    altCompleteText: 
+    handBuilt: 0
+    area: 0
+    env: 0
+    maxCrashes: 2
+    maxStrikes: 3
+    speedLimitKmh: 0
+    noReverse: 0
+    timeFactor: 0.85
+    fixedTime: 0
+    reward: 6800
+    startFuel: 0
+    fuelDrainPerSecond: 0
+    hazard: 0
+    hazardCount: 0
+    props: 4
+    propCount: 20
+    steps:
+    - kind: 0
+      count: 1
+      ordered: 1
+      toStart: 0
+      minDist: 800
+      maxDist: 1100
+      radius: 8
+      hold: 3
+      holdMaxSpeedKmh: 25
+      mover: 0
+      moverSpeedKmh: 45
+      nearDist: 6
+      farDist: 45
+      hits: 1
+      duration: 60
+      minKmh: 0
+      maxKmh: 0
+      requiredRank: 1
+      label: Highway End
+      altLabel: 
+  - chapter: 8
+    level: 4
+    title: AI Rescue Team
+    story: Three friendly AI cars are in shutdown mode.
+    objective: Stop beside each car to reactivate it, then gather at the safe spot.
+    completeText: Rescue team assembled!
+    altCompleteText: 
+    handBuilt: 0
+    area: 0
+    env: 0
+    maxCrashes: 1
+    maxStrikes: 3
+    speedLimitKmh: 0
+    noReverse: 0
+    timeFactor: 1
+    fixedTime: 0
+    reward: 6900
+    startFuel: 0
+    fuelDrainPerSecond: 0
+    hazard: 0
+    hazardCount: 0
+    props: 0
+    propCount: 0
+    steps:
+    - kind: 4
+      count: 3
+      ordered: 1
+      toStart: 0
+      minDist: 200
+      maxDist: 380
+      radius: 6
+      hold: 3
+      holdMaxSpeedKmh: 10
+      mover: 0
+      moverSpeedKmh: 45
+      nearDist: 6
+      farDist: 45
+      hits: 1
+      duration: 60
+      minKmh: 0
+      maxKmh: 0
+      requiredRank: 1
+      label: Shutdown AI Car
+      altLabel: 
+    - kind: 0
+      count: 1
+      ordered: 1
+      toStart: 0
+      minDist: 200
+      maxDist: 350
+      radius: 8
+      hold: 3
+      holdMaxSpeedKmh: 25
+      mover: 0
+      moverSpeedKmh: 45
+      nearDist: 6
+      farDist: 45
+      hits: 1
+      duration: 60
+      minKmh: 0
+      maxKmh: 0
+      requiredRank: 1
+      label: Safe Spot
+      altLabel: 
+  - chapter: 8
+    level: 5
+    title: Firewall Attack
+    story: CORE AI's firewall depends on physical nodes.
+    objective: Pass the 4 firewall nodes above 60 km/h so the injected code runs.
+    completeText: Firewall breached!
+    altCompleteText: 
+    handBuilt: 0
+    area: 0
+    env: 0
+    maxCrashes: 1
+    maxStrikes: 3
+    speedLimitKmh: 0
+    noReverse: 0
+    timeFactor: 1
+    fixedTime: 0
+    reward: 7000
+    startFuel: 0
+    fuelDrainPerSecond: 0
+    hazard: 0
+    hazardCount: 0
+    props: 0
+    propCount: 0
+    steps:
+    - kind: 1
+      count: 4
+      ordered: 0
+      toStart: 0
+      minDist: 120
+      maxDist: 260
+      radius: 8
+      hold: 3
+      holdMaxSpeedKmh: 25
+      mover: 0
+      moverSpeedKmh: 45
+      nearDist: 6
+      farDist: 45
+      hits: 1
+      duration: 60
+      minKmh: 60
+      maxKmh: 0
+      requiredRank: 1
+      label: Firewall Node
+      altLabel: 
+  - chapter: 8
+    level: 6
+    title: Tunnel Collapse
+    story: CORE AI starts collapsing the tunnel.
+    objective: Sprint to the exit and dodge the falling rocks.
+    completeText: Out before the collapse!
+    altCompleteText: 
+    handBuilt: 0
+    area: 0
+    env: 2
+    maxCrashes: 1
+    maxStrikes: 3
+    speedLimitKmh: 0
+    noReverse: 0
+    timeFactor: 0.75
+    fixedTime: 0
+    reward: 7100
+    startFuel: 0
+    fuelDrainPerSecond: 0
+    hazard: 6
+    hazardCount: 3
+    props: 0
+    propCount: 0
+    steps:
+    - kind: 0
+      count: 1
+      ordered: 1
+      toStart: 0
+      minDist: 400
+      maxDist: 550
+      radius: 8
+      hold: 3
+      holdMaxSpeedKmh: 25
+      mover: 0
+      moverSpeedKmh: 45
+      nearDist: 6
+      farDist: 45
+      hits: 1
+      duration: 60
+      minKmh: 0
+      maxKmh: 0
+      requiredRank: 1
+      label: Tunnel Exit
+      altLabel: 
+  - chapter: 8
+    level: 7
+    title: EMP Strike
+    story: Reach the central EMP blast coordinator.
+    objective: Sync the 3 outer relay points, then rush to the central node.
+    completeText: EMP strike ready!
+    altCompleteText: 
+    handBuilt: 0
+    area: 0
+    env: 0
+    maxCrashes: 1
+    maxStrikes: 3
+    speedLimitKmh: 0
+    noReverse: 0
+    timeFactor: 1
+    fixedTime: 0
+    reward: 7200
+    startFuel: 0
+    fuelDrainPerSecond: 0
+    hazard: 4
+    hazardCount: 4
+    props: 0
+    propCount: 0
+    steps:
+    - kind: 4
+      count: 3
+      ordered: 1
+      toStart: 0
+      minDist: 150
+      maxDist: 300
+      radius: 6
+      hold: 2
+      holdMaxSpeedKmh: 10
+      mover: 0
+      moverSpeedKmh: 45
+      nearDist: 6
+      farDist: 45
+      hits: 1
+      duration: 60
+      minKmh: 0
+      maxKmh: 0
+      requiredRank: 1
+      label: Relay Point
+      altLabel: 
+    - kind: 0
+      count: 1
+      ordered: 1
+      toStart: 0
+      minDist: 200
+      maxDist: 350
+      radius: 8
+      hold: 3
+      holdMaxSpeedKmh: 25
+      mover: 0
+      moverSpeedKmh: 45
+      nearDist: 6
+      farDist: 45
+      hits: 1
+      duration: 60
+      minKmh: 0
+      maxKmh: 0
+      requiredRank: 1
+      label: Central Node
+      altLabel: 
+  - chapter: 8
+    level: 8
+    title: City Shutdown
+    story: Shut down the whole city grid temporarily.
+    objective: Drive through 6 substations in order above 40 km/h, then stop in the
+      neutral zone.
+    completeText: City grid offline!
+    altCompleteText: 
+    handBuilt: 0
+    area: 0
+    env: 0
+    maxCrashes: 1
+    maxStrikes: 3
+    speedLimitKmh: 0
+    noReverse: 0
+    timeFactor: 1
+    fixedTime: 0
+    reward: 7300
+    startFuel: 0
+    fuelDrainPerSecond: 0
+    hazard: 0
+    hazardCount: 0
+    props: 0
+    propCount: 0
+    steps:
+    - kind: 1
+      count: 6
+      ordered: 1
+      toStart: 0
+      minDist: 120
+      maxDist: 220
+      radius: 8
+      hold: 3
+      holdMaxSpeedKmh: 25
+      mover: 0
+      moverSpeedKmh: 45
+      nearDist: 6
+      farDist: 45
+      hits: 1
+      duration: 60
+      minKmh: 40
+      maxKmh: 0
+      requiredRank: 1
+      label: Substation
+      altLabel: 
+    - kind: 4
+      count: 1
+      ordered: 1
+      toStart: 0
+      minDist: 40
+      maxDist: 80
+      radius: 3
+      hold: 2
+      holdMaxSpeedKmh: 4
+      mover: 0
+      moverSpeedKmh: 45
+      nearDist: 6
+      farDist: 45
+      hits: 1
+      duration: 60
+      minKmh: 0
+      maxKmh: 0
+      requiredRank: 1
+      label: Neutral Zone
+      altLabel: 
+  - chapter: 8
+    level: 9
+    title: Mother Core Reveal
+    story: Mother Core AI fully detects you inside the tower.
+    objective: Complete a lap of the inner ring road while evading Mother Core's
+      drones.
+    completeText: Mother Core revealed!
+    altCompleteText: 
+    handBuilt: 0
+    area: 0
+    env: 1
+    maxCrashes: 1
+    maxStrikes: 3
+    speedLimitKmh: 0
+    noReverse: 0
+    timeFactor: 1
+    fixedTime: 0
+    reward: 7400
+    startFuel: 0
+    fuelDrainPerSecond: 0
+    hazard: 2
+    hazardCount: 4
+    props: 0
+    propCount: 0
+    steps:
+    - kind: 1
+      count: 4
+      ordered: 1
+      toStart: 0
+      minDist: 200
+      maxDist: 320
+      radius: 8
+      hold: 3
+      holdMaxSpeedKmh: 25
+      mover: 0
+      moverSpeedKmh: 45
+      nearDist: 6
+      farDist: 45
+      hits: 1
+      duration: 60
+      minKmh: 0
+      maxKmh: 0
+      requiredRank: 1
+      label: Ring Road
+      altLabel: 
+    - kind: 0
+      count: 1
+      ordered: 1
+      toStart: 1
+      minDist: 120
+      maxDist: 320
+      radius: 9
+      hold: 3
+      holdMaxSpeedKmh: 25
+      mover: 0
+      moverSpeedKmh: 45
+      nearDist: 6
+      farDist: 45
+      hits: 1
+      duration: 60
+      minKmh: 0
+      maxKmh: 0
+      requiredRank: 1
+      label: Lap Finish
+      altLabel: 
+  - chapter: 9
+    level: 0
+    title: Final Escape
+    story: All city systems are active against you.
+    objective: Avoid the red danger zones along the long route and reach the safe
+      hub.
+    completeText: Safe hub reached!
+    altCompleteText: 
+    handBuilt: 0
+    area: 0
+    env: 0
+    maxCrashes: 1
+    maxStrikes: 3
+    speedLimitKmh: 0
+    noReverse: 0
+    timeFactor: 1
+    fixedTime: 0
+    reward: 7000
+    startFuel: 0
+    fuelDrainPerSecond: 0
+    hazard: 1
+    hazardCount: 8
+    props: 0
+    propCount: 0
+    steps:
+    - kind: 0
+      count: 1
+      ordered: 1
+      toStart: 0
+      minDist: 800
+      maxDist: 1000
+      radius: 8
+      hold: 3
+      holdMaxSpeedKmh: 25
+      mover: 0
+      moverSpeedKmh: 45
+      nearDist: 6
+      farDist: 45
+      hits: 1
+      duration: 60
+      minKmh: 0
+      maxKmh: 0
+      requiredRank: 1
+      label: Safe Hub
+      altLabel: 
+  - chapter: 9
+    level: 1
+    title: Helicopter Missiles
+    story: The final helicopter fires heavy missiles.
+    objective: Dodge the incoming missiles with sharp turns and survive 5 waves (75
+      s).
+    completeText: All missile waves survived!
+    altCompleteText: 
+    handBuilt: 0
+    area: 0
+    env: 0
+    maxCrashes: 2
+    maxStrikes: 3
+    speedLimitKmh: 0
+    noReverse: 0
+    timeFactor: 1
+    fixedTime: 0
+    reward: 7100
+    startFuel: 0
+    fuelDrainPerSecond: 0
+    hazard: 7
+    hazardCount: 1
+    props: 0
+    propCount: 0
+    steps:
+    - kind: 13
+      count: 1
+      ordered: 1
+      toStart: 0
+      minDist: 120
+      maxDist: 320
+      radius: 7
+      hold: 3
+      holdMaxSpeedKmh: 25
+      mover: 0
+      moverSpeedKmh: 45
+      nearDist: 6
+      farDist: 45
+      hits: 1
+      duration: 75
+      minKmh: 0
+      maxKmh: 0
+      requiredRank: 1
+      label: Missile Waves
+      altLabel: 
+  - chapter: 9
+    level: 2
+    title: Monster Truck Raid
+    story: CORE AI deployed heavy monster trucks.
+    objective: Don't stay in front of them. Use side lanes to confuse them and survive.
+    completeText: Monster trucks wrecked!
+    altCompleteText: 
+    handBuilt: 0
+    area: 0
+    env: 0
+    maxCrashes: 2
+    maxStrikes: 3
+    speedLimitKmh: 0
+    noReverse: 0
+    timeFactor: 1
+    fixedTime: 0
+    reward: 7200
+    startFuel: 0
+    fuelDrainPerSecond: 0
+    hazard: 0
+    hazardCount: 0
+    props: 0
+    propCount: 0
+    steps:
+    - kind: 9
+      count: 3
+      ordered: 1
+      toStart: 0
+      minDist: 0
+      maxDist: 0
+      radius: 10
+      hold: 3
+      holdMaxSpeedKmh: 25
+      mover: 7
+      moverSpeedKmh: 80
+      nearDist: 6
+      farDist: 45
+      hits: 1
+      duration: 70
+      minKmh: 0
+      maxKmh: 0
+      requiredRank: 1
+      label: Safe Zone
+      altLabel: 
+  - chapter: 9
+    level: 3
+    title: Exploding Bridge
+    story: Timed explosives are set on the bridge segments.
+    objective: Time your speed so you cross each segment before it blows.
+    completeText: Bridge crossed!
+    altCompleteText: 
+    handBuilt: 0
+    area: 0
+    env: 0
+    maxCrashes: 1
+    maxStrikes: 3
+    speedLimitKmh: 0
+    noReverse: 0
+    timeFactor: 1
+    fixedTime: 0
+    reward: 7300
+    startFuel: 0
+    fuelDrainPerSecond: 0
+    hazard: 6
+    hazardCount: 3
+    props: 0
+    propCount: 0
+    steps:
+    - kind: 0
+      count: 1
+      ordered: 1
+      toStart: 0
+      minDist: 450
+      maxDist: 600
+      radius: 8
+      hold: 3
+      holdMaxSpeedKmh: 25
+      mover: 0
+      moverSpeedKmh: 45
+      nearDist: 6
+      farDist: 45
+      hits: 1
+      duration: 60
+      minKmh: 0
+      maxKmh: 0
+      requiredRank: 1
+      label: Bridge End
+      altLabel: 
+  - chapter: 9
+    level: 4
+    title: Final Tunnel
+    story: The last tunnel to Mother Core's heart.
+    objective: Keep perfect lane discipline through the tight turns and reach the
+      end chamber.
+    completeText: End chamber reached!
+    altCompleteText: 
+    handBuilt: 0
+    area: 0
+    env: 2
+    maxCrashes: 0
+    maxStrikes: 3
+    speedLimitKmh: 0
+    noReverse: 0
+    timeFactor: 0.85
+    fixedTime: 0
+    reward: 7400
+    startFuel: 0
+    fuelDrainPerSecond: 0
+    hazard: 0
+    hazardCount: 0
+    props: 0
+    propCount: 0
+    steps:
+    - kind: 1
+      count: 6
+      ordered: 1
+      toStart: 0
+      minDist: 100
+      maxDist: 180
+      radius: 8
+      hold: 3
+      holdMaxSpeedKmh: 25
+      mover: 0
+      moverSpeedKmh: 45
+      nearDist: 6
+      farDist: 45
+      hits: 1
+      duration: 60
+      minKmh: 0
+      maxKmh: 0
+      requiredRank: 1
+      label: Tunnel Turn
+      altLabel: 
+  - chapter: 9
+    level: 5
+    title: Police Army
+    story: The full police fleet tries to stop you.
+    objective: Find gaps in the blockade lines and break through to the far side.
+    completeText: Blockade broken!
+    altCompleteText: 
+    handBuilt: 0
+    area: 0
+    env: 0
+    maxCrashes: 2
+    maxStrikes: 3
+    speedLimitKmh: 0
+    noReverse: 0
+    timeFactor: 1
+    fixedTime: 0
+    reward: 7500
+    startFuel: 0
+    fuelDrainPerSecond: 0
+    hazard: 0
+    hazardCount: 0
+    props: 6
+    propCount: 2
+    steps:
+    - kind: 9
+      count: 4
+      ordered: 1
+      toStart: 0
+      minDist: 500
+      maxDist: 700
+      radius: 10
+      hold: 3
+      holdMaxSpeedKmh: 25
+      mover: 5
+      moverSpeedKmh: 95
+      nearDist: 6
+      farDist: 45
+      hits: 1
+      duration: 0
+      minKmh: 0
+      maxKmh: 0
+      requiredRank: 1
+      label: Beyond the Blockade
+      altLabel: 
+  - chapter: 9
+    level: 6
+    title: Hacker Override
+    story: The hacker sends the final override code.
+    objective: Hold a constant speed between 60 and 90 km/h so the data transfer
+      stays stable.
+    completeText: Override uploaded!
+    altCompleteText: 
+    handBuilt: 0
+    area: 0
+    env: 0
+    maxCrashes: 1
+    maxStrikes: 3
+    speedLimitKmh: 0
+    noReverse: 0
+    timeFactor: 1
+    fixedTime: 0
+    reward: 7600
+    startFuel: 0
+    fuelDrainPerSecond: 0
+    hazard: 0
+    hazardCount: 0
+    props: 0
+    propCount: 0
+    steps:
+    - kind: 12
+      count: 1
+      ordered: 1
+      toStart: 0
+      minDist: 120
+      maxDist: 320
+      radius: 7
+      hold: 3
+      holdMaxSpeedKmh: 25
+      mover: 0
+      moverSpeedKmh: 45
+      nearDist: 6
+      farDist: 45
+      hits: 1
+      duration: 40
+      minKmh: 60
+      maxKmh: 90
+      requiredRank: 1
+      label: Data Transfer
+      altLabel: 
+  - chapter: 9
+    level: 7
+    title: Shutdown Defense
+    story: Mother Core tries to shut down your systems remotely.
+    objective: Avoid the glitch zones for 60 seconds. Touching one causes temporary
+      control loss.
+    completeText: Systems defended!
+    altCompleteText: 
+    handBuilt: 0
+    area: 0
+    env: 0
+    maxCrashes: 2
+    maxStrikes: 4
+    speedLimitKmh: 0
+    noReverse: 0
+    timeFactor: 1
+    fixedTime: 0
+    reward: 7700
+    startFuel: 0
+    fuelDrainPerSecond: 0
+    hazard: 5
+    hazardCount: 1
+    props: 0
+    propCount: 0
+    steps:
+    - kind: 13
+      count: 1
+      ordered: 1
+      toStart: 0
+      minDist: 120
+      maxDist: 320
+      radius: 7
+      hold: 3
+      holdMaxSpeedKmh: 25
+      mover: 0
+      moverSpeedKmh: 45
+      nearDist: 6
+      farDist: 45
+      hits: 1
+      duration: 60
+      minKmh: 0
+      maxKmh: 0
+      requiredRank: 1
+      label: Defend Systems
+      altLabel: 
+  - chapter: 9
+    level: 8
+    title: Mother Core Boss
+    story: An arena full of moving energy beams and turrets.
+    objective: 'Three rounds: strike the weak-point nodes while dodging the turret
+      fire.'
+    completeText: Mother Core destroyed!
+    altCompleteText: 
+    handBuilt: 0
+    area: 0
+    env: 0
+    maxCrashes: 2
+    maxStrikes: 4
+    speedLimitKmh: 0
+    noReverse: 0
+    timeFactor: 1
+    fixedTime: 0
+    reward: 7800
+    startFuel: 0
+    fuelDrainPerSecond: 0
+    hazard: 7
+    hazardCount: 1
+    props: 0
+    propCount: 0
+    steps:
+    - kind: 4
+      count: 3
+      ordered: 1
+      toStart: 0
+      minDist: 100
+      maxDist: 200
+      radius: 6
+      hold: 1.5
+      holdMaxSpeedKmh: 0
+      mover: 0
+      moverSpeedKmh: 45
+      nearDist: 6
+      farDist: 45
+      hits: 1
+      duration: 60
+      minKmh: 0
+      maxKmh: 0
+      requiredRank: 1
+      label: Weak Point (Round 1)
+      altLabel: 
+    - kind: 4
+      count: 3
+      ordered: 1
+      toStart: 0
+      minDist: 100
+      maxDist: 200
+      radius: 6
+      hold: 1.5
+      holdMaxSpeedKmh: 0
+      mover: 0
+      moverSpeedKmh: 45
+      nearDist: 6
+      farDist: 45
+      hits: 1
+      duration: 60
+      minKmh: 0
+      maxKmh: 0
+      requiredRank: 1
+      label: Weak Point (Round 2)
+      altLabel: 
+    - kind: 4
+      count: 3
+      ordered: 1
+      toStart: 0
+      minDist: 100
+      maxDist: 200
+      radius: 6
+      hold: 1.5
+      holdMaxSpeedKmh: 0
+      mover: 0
+      moverSpeedKmh: 45
+      nearDist: 6
+      farDist: 45
+      hits: 1
+      duration: 60
+      minKmh: 0
+      maxKmh: 0
+      requiredRank: 1
+      label: Weak Point (Round 3)
+      altLabel: 
+  - chapter: 9
+    level: 9
+    title: The Last Drive
+    story: 'The city is becoming free. One final choice: freedom or sacrifice.'
+    objective: 'Choose your ending: drive to the open highway (Freedom) or back to
+      the core chamber (Sacrifice).'
+    completeText: 'FREEDOM: You drive into the open world. The city is free.'
+    altCompleteText: 'SACRIFICE: You became the city''s eternal guardian.'
+    handBuilt: 0
+    area: 0
+    env: 0
+    maxCrashes: 2
+    maxStrikes: 3
+    speedLimitKmh: 0
+    noReverse: 0
+    timeFactor: 1
+    fixedTime: 0
+    reward: 7900
+    startFuel: 0
+    fuelDrainPerSecond: 0
+    hazard: 0
+    hazardCount: 0
+    props: 0
+    propCount: 0
+    steps:
+    - kind: 16
+      count: 1
+      ordered: 1
+      toStart: 0
+      minDist: 300
+      maxDist: 500
+      radius: 10
+      hold: 3
+      holdMaxSpeedKmh: 25
+      mover: 0
+      moverSpeedKmh: 45
+      nearDist: 6
+      farDist: 45
+      hits: 1
+      duration: 60
+      minKmh: 0
+      maxKmh: 0
+      requiredRank: 1
+      label: Open Highway
+      altLabel: Core Chamber

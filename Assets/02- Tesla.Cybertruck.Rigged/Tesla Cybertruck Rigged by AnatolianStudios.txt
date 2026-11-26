@@ -1,0 +1,15 @@
+Title: Tesla Cybertruck Rigged
+URL: http://sketchfab.com/3d-models/tesla-cybertruck-rigged-edefb12c69a54178a1a299f92443621e
+Author: https://sketchfab.com/AnatolianStudios
+
+Vertices: 28019
+Polygons: 50971
+Animations: 0
+
+Download Date: 13/11/2026
+Download Format: FBX
+Download Path: C:\Users\Hp\Downloads\3d_Ripper_Pro_v110b\Downloads\AnatolianStudios\02- Tesla.Cybertruck.Rigged\
+Download File: edefb12c69a54178a1a299f92443621e.fbx
+
+Textures: 1
+#1: fd7dee1a899d4b7697c5d758fd59ad28_RGB_internal_ground_ao_texture.jpeg

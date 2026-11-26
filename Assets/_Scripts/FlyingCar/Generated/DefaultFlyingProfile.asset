@@ -1,0 +1,67 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 484096912c2982c41847eeffd3abdf9b, type: 3}
+  m_Name: DefaultFlyingProfile
+  m_EditorClassIdentifier: Assembly-CSharp::FlyingCarProfile
+  inputMode: 0
+  climbSpeed: 6
+  descendSpeed: 4
+  touchdownSpeed: 1.2
+  flareHeight: 3.5
+  maxHeight: 30
+  cruiseHeight: 12
+  altitudeGain: 1.2
+  verticalResponse: 3
+  maxVerticalAcceleration: 14
+  liftRampTime: 0.8
+  landingSettleTime: 0.4
+  liftOffHeight: 1.2
+  maxFlightSpeedKmh: 140
+  maxReverseSpeedKmh: 40
+  forwardResponse: 1.2
+  maxHorizontalAcceleration: 12
+  airResistance: 0.35
+  lateralGrip: 2.5
+  yawSpeed: 70
+  minYawFactor: 0.5
+  rotationResponse: 6
+  levelStrength: 4
+  maxBankAngle: 16
+  maxPitchAngle: 6
+  climbPitchAngle: 5
+  groundMask:
+    serializedVersion: 2
+    m_Bits: 4294967291
+  obstacleAvoidance: 1
+  avoidanceLookAhead: 0.8
+  avoidanceStrength: 4
+  continuousCollisionInFlight: 1
+  useEnergy: 1
+  maxEnergy: 100
+  climbDrain: 7
+  cruiseDrain: 4
+  descendDrain: 1
+  regenRate: 12
+  regenDelay: 1
+  minEnergyToTakeOff: 25
+  drainVehicleFuel: 0
+  vehicleFuelPerSecond: 0.3
+  cameraExtraDistance: 2.5
+  cameraExtraHeight: 1.2
+  cameraExtraFOV: 8
+  cameraExtraPitch: 4
+  cameraBlendTime: 0.7
+  foldWheels: 1
+  wheelFoldAngle: 90
+  wheelFoldTime: 0.6
+  thrusterColor: {r: 0.25, g: 0.85, b: 2.2, a: 1}
+  thrusterEmission: 55

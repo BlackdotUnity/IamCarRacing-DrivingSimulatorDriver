@@ -1,0 +1,9 @@
+{
+  "mcpServers": {
+    "unity": {
+      "type": "stdio",
+      "command": "node",
+      "args": ["C:/Users/Hp/unity-mcp-server/src/index.js"]
+    }
+  }
+}

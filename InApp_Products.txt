@@ -1,0 +1,23 @@
+﻿TMT Project - Meta Quest In-App Products (Add-ons)
+==================================================
+
+#   Product              SKU / ID               Type         Reward                                   Price    Badge
+--  -------------------  ---------------------  -----------  ---------------------------------------  -------  ----------
+1   10,000 Coins         iamcarcoins10000       Consumable   10,000 coins                             $2.99
+2   15,000 Coins         iamcarcoins15000       Consumable   15,000 coins                             $3.99    POPULAR
+3   20,000 Coins         iamcarcoins20000       Consumable   20,000 coins                             $5.99    BEST VALUE
+4   5 Keys               iamcarkeys5            Consumable   5 keys                                   $0.99
+5   15 Keys              iamcarkeys15           Consumable   15 keys                                  $1.99    POPULAR
+6   40 Keys              iamcarkeys40           Consumable   40 keys                                  $3.99    BEST VALUE
+7   Unlock Everything    iamcarunlockallgame    Durable      Sab gaariyan, levels aur unlimited fuel  $51.99
+8   Unlock All Cars      iamcarunlockallcars    Durable      Sab gaariyan                             $19.99
+9   Unlock All Levels    iamcarunlockalllevel   Durable      Sab levels                               $19.99
+
+
+Meta Dashboard Notes
+--------------------
+- Har SKU Meta Developer Dashboard mein bilkul isi spelling se Add-on banana hai.
+- Coins aur Keys = Consumable.  Unlock wale = Durable.
+- Dashboard ki price yahan wali price ke barabar rakhein.
+- Game mein yeh values Splash scene > InnAppMannager (INAPP component) ke Inspector mein set hain.
+- Meta App ID: Meta > Platform > Edit Settings mein daalni hai (abhi khali hai).
